@@ -1,5 +1,6 @@
 venv/
 .idea/
 __pycache__
+google-cloud-2020.json
+project_secrets.py
 google-cloud.json
-secrets.py
