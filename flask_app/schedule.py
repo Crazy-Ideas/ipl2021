@@ -68,7 +68,7 @@ class _Schedule:
 
     @property
     def max_game_week(self):
-        return max(self.schedule, key=lambda match: match.game_week).game_week
+        return max(self.schedule, key=lambda match: match.game_week).game_week if self.schedule else 0
 
     def get_game_week(self) -> int:
         date = today()

@@ -17,22 +17,23 @@ class Player(FirestoreDocument):
         self.base: int = 0
         self.country: str = str()
         self.type: str = str()
-        self.ipl2019_score: float = 0.0
+        self.ipl2020_score: float = 0.0
         self.team: str = str()
         self.score: int = 0
-        self.ipl2019_rank: int = 0
+        self.ipl2020_rank: int = 0
         self.cost_rank: int = 0
         self.owner: Optional[str] = None
         self.price: int = 0
         self.auction_status: str = str()
         self.bid_order: int = 0
         self._sbp_cost: int = 0
-        self.ipl_name: str = str()
         self.pid: str = str()
         self.scores: Dict[str, int] = dict()
+        self.status: str = str()
+        self.ipl2019_score: float = 0.0
 
     def __repr__(self) -> str:
-        return f"{self.name}:{self.team}:{self.ipl_name}:{self.pid}"
+        return f"{self.name}:{self.team}:{self.pid}"
 
     @property
     def image(self) -> str:
@@ -42,8 +43,8 @@ class Player(FirestoreDocument):
         return f'images/{file_name}'
 
     @property
-    def sbp_2019(self) -> int:
-        return int(round(Config.COST_2019 * self.ipl2019_score / Config.SCORE_2019, -1))
+    def sbp_2020(self) -> int:
+        return int(round(Config.COST_2020 * self.ipl2020_score / Config.SCORE_2020, -1))
 
     @property
     def sbp_cost(self) -> int:
@@ -66,8 +67,8 @@ class Player(FirestoreDocument):
         return Config.PLAYERS_COST
 
     @property
-    def ipl2019_rank_total(self) -> int:
-        return Config.PLAYERS_2019
+    def ipl2020_rank_total(self) -> int:
+        return Config.PLAYERS_2020
 
     @property
     def team_full_name(self) -> str:
@@ -119,7 +120,7 @@ class Player(FirestoreDocument):
                 for game_week in range(1, schedule.max_game_week + 1)]
 
     def get_min_bid(self, user: User = None) -> int:
-        min_sbp = min(self.sbp_2019, self.sbp_cost) if self.ipl2019_score else self.base
+        min_sbp = min(self.sbp_2020, self.sbp_cost) if self.ipl2020_score else self.base
         min_bid = max(min(min_sbp, user.balance) if user else min_sbp, self.base)
         min_bid += 20 - min_bid % 20 if min_bid % 20 else 0
         if user and user.balance < min_bid:
@@ -127,7 +128,7 @@ class Player(FirestoreDocument):
         return min_bid
 
     def get_max_bid(self, user: User = None) -> int:
-        max_sbp = max(self.sbp_2019, self.sbp_cost) if self.ipl2019_score else self.sbp_cost
+        max_sbp = max(self.sbp_2020, self.sbp_cost) if self.ipl2020_score else self.sbp_cost
         max_bid = min(max_sbp, user.balance) if user else max_sbp
         min_bid = self.get_min_bid(user)
         max_bid = min_bid if max_bid < min_bid else max_bid

@@ -8,13 +8,13 @@ from project_secrets import SecretConfig
 
 class Config(SecretConfig):
     IMAGES = set(os.listdir("flask_app/static/images"))
-    SCORE_2019 = 21154
-    PLAYERS_2019 = 128
-    COST_2019 = 51395
-    TOTAL_COST = 61265
-    PLAYERS_COST = 151
-    BALANCE = 6140
-    TOTAL_PLAYERS = 189
+    SCORE_2020 = 43682
+    PLAYERS_2020 = 121
+    COST_2020 = 49715
+    TOTAL_COST = 60760
+    PLAYERS_COST = 195
+    BALANCE = 6750
+    TOTAL_PLAYERS = 195
     USER_LIST = {"NZ": "Nayan Zaveri", "MB": "Manish Bhatt", "PP": "Pranay Patil", "VP": "Vinayak Patil",
                  "AG": "Avinash Gaikwad", "AN": "Ajit Nayak", "AS": "Arunesh Shah", "SS": "Sunny Saurabh",
                  "HJ": "Hitendra Jain"}

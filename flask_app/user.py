@@ -19,6 +19,7 @@ class User(FirestoreDocument, UserMixin):
         super().__init__()
         self.username: str = str()
         self.password_hash: str = str()
+        self.email: str = str()
         self.name: str = str()
         self.balance: int = Config.BALANCE
         self.points: float = 0.0

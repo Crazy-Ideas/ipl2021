@@ -22,7 +22,7 @@ from flask_app.user import User
 def home() -> Response:
     users = User.objects.get()
     users.sort(key=lambda user_item: -user_item.points)
-    return render_template("user_list.html", title="Super Fantasy League - IPL 2020", users=users)
+    return render_template("user_list.html", title="Super Fantasy League - IPL 2021", users=users)
 
 
 @ipl_app.route("/users/<username>/players")
@@ -40,21 +40,21 @@ def user_players(username: str) -> Response:
 def all_players() -> Response:
     players = Player.objects.get()
     players.sort(key=lambda player: (-player.score, -player.price))
-    return render_template("player_list.html", username=None, players=players, title=f"IPL 2020 - Players")
+    return render_template("player_list.html", username=None, players=players, title=f"IPL 2021 - Players")
 
 
 @ipl_app.route("/bids")
 @login_required
 def view_bids():
     return render_template("bid_list.html", bids=Bid.bid_list(10), users=sorted(ipl_app.config["USER_LIST"]),
-                           all=False, title=f"IPL 2020 - Bids")
+                           all=False, title=f"IPL 2021 - Bids")
 
 
 @ipl_app.route("/bids/all")
 @login_required
 def view_all_bids():
     return render_template("bid_list.html", bids=Bid.bid_list(), users=sorted(ipl_app.config["USER_LIST"]),
-                           all=True, title=f"IPL 2020 - Bids")
+                           all=True, title=f"IPL 2021 - Bids")
 
 
 @ipl_app.route("/players/<string:player_id>")

@@ -40,20 +40,20 @@
                 <li class="list-group-item">
                     Salary SBP &#8377 <strong>{{ player.sbp_cost }}</strong> lacs
                 </li>
-                {% if player.ipl2019_score > 0 %}
-                <li class="list-group-item">
-                    2019 Scored <strong>{{ player.ipl2019_score }}</strong> points
-                </li>
-                <li class="list-group-item">
-                    2019 Ranked <strong>{{ player.ipl2019_rank }}</strong> of {{ player.ipl2019_rank_total }}
-                </li>
-                <li class="list-group-item">
-                    2019 SBP &#8377 <strong>{{ player.sbp_2019 }}</strong> lacs
-                </li>
+                {% if player.ipl2020_score > 0 %}
+                    <li class="list-group-item">
+                        2020 Scored <strong>{{ player.ipl2020_score }}</strong> points
+                    </li>
+                    <li class="list-group-item">
+                        2020 Ranked <strong>{{ player.ipl2020_rank }}</strong> of {{ player.ipl2020_rank_total }}
+                    </li>
+                    <li class="list-group-item">
+                        2020 SBP &#8377 <strong>{{ player.sbp_2020 }}</strong> lacs
+                    </li>
                 {% else %}
-                <li class="list-group-item">
-                    Did not play IPL 2019
-                </li>
+                    <li class="list-group-item">
+                        Did not play IPL 2020
+                    </li>
                 {% endif %}
             </ul>
         </div>
