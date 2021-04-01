@@ -44,13 +44,13 @@ class Match(FirestoreDocument):
         return f"btn btn-block btn-primary {'disabled' if self.date > today() else str()}"
 
 
-Match.init()
+Match.init("matches")
 
 
 class _Schedule:
 
     def __init__(self):
-        self.schedule: List[Match] = Match.objects.get()
+        self.schedule: List[Match] = Match.objects.order_by("number").get()
         self.team_initials = [team_initial for team_name, team_initial in Config.TEAMS.items()]
 
     @property

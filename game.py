@@ -1,5 +1,9 @@
+import json
 import os
+from datetime import datetime, timedelta
 from typing import List
+
+from dateutil import parser
 
 from config import Config
 
@@ -7,6 +11,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "google-cloud.json"
 
 # noinspection PyPackageRequirements
 from googleapiclient.discovery import build
+from flask_app.schedule import Match
 from flask_app.player import Player
 from flask_app.user import User
 
@@ -88,3 +93,39 @@ def update_rank():
         player.cost_rank = players.index(ranked_player) + 1
     Player.objects.save_all(players)
     print(f"Ranks of {len(players)} players updated.")
+
+
+def _get_game_week(date: datetime) -> int:
+    if date < Config.GAME_WEEK_2_CUT_OFF:
+        return 1
+    game_week_start = Config.GAME_WEEK_2_CUT_OFF
+    max_game_weeks = 11
+    for game_week in range(2, max_game_weeks):
+        if game_week_start <= date < game_week_start + timedelta(days=7):
+            return game_week
+        game_week_start += timedelta(days=7)
+    return max_game_weeks
+
+
+def prepare_schedule():
+    with open("source/schedule2021.json") as file:
+        schedule = json.load(file)["matches"]
+    matches: List[Match] = list()
+    for match in schedule:
+        if match["team-1"] not in Config.TEAMS or match["team-2"] not in Config.TEAMS:
+            continue
+        doc_match: Match = Match()
+        doc_match.date = parser.parse(match["dateTimeGMT"]).astimezone(Config.INDIA_TZ)
+        if doc_match.date.month <= 4 and match["team-1"] == "TBA":
+            continue
+        doc_match.unique_id = match["unique_id"]
+        doc_match.home_team = Config.TEAMS[match["team-1"]]
+        doc_match.away_team = Config.TEAMS[match["team-2"]]
+        matches.append(doc_match)
+    for index, match in enumerate(matches):
+        match.number = index + 1
+        match.game_week = _get_game_week(match.date)
+        match.teams = [match.home_team, match.away_team]
+    Match.objects.delete()
+    Match.objects.create_all(Match.objects.to_dicts(matches))
+    print(f"{len(matches)} matches created.")

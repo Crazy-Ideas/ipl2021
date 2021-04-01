@@ -20,15 +20,15 @@ class Config(SecretConfig):
                  "HJ": "Hitendra Jain"}
     USER_COUNT = len(USER_LIST)
     TEAMS = {"Mumbai Indians": "MI", "Chennai Super Kings": "CSK", "Delhi Capitals": "DC", "Kings XI Punjab": "KXIP",
-             "Royal Challengers Bangalore": "RCB", "TBD": "TBD", "Kolkata Knight Riders": "KKR",
+             "Royal Challengers Bangalore": "RCB", "TBA": "TBD", "Kolkata Knight Riders": "KKR",
              "Sunrisers Hyderabad": "SRH", "Rajasthan Royals": "RR"}
     DATE, UNIQUE_ID, HOME_TEAM, AWAY_TEAM = "Date", "Unique Id", "Home Team", "Away Team"
     ROUND, MATCH_NO = "Gameweek", "Match No"
     NORMAL, CAPTAIN, SUB = "Normal", "Captain", "Sub"
     MULTIPLIER = {NORMAL: 1.0, CAPTAIN: 2.0, SUB: 0.5}
     INDIA_TZ = gettz("Asia/Kolkata")
-    GAME_WEEK_START = datetime(year=2020, month=9, day=18, hour=19, tzinfo=INDIA_TZ)
-    GAME_WEEK_2_CUT_OFF = datetime(year=2020, month=9, day=21, hour=19, tzinfo=INDIA_TZ)
+    GAME_WEEK_START = datetime(year=2021, month=4, day=9, hour=19, tzinfo=INDIA_TZ)
+    GAME_WEEK_2_CUT_OFF = datetime(year=2021, month=4, day=12, hour=19, tzinfo=INDIA_TZ)
     GAME_WEEK_9_CUT_OFF = datetime(year=2020, month=11, day=5, hour=19, tzinfo=INDIA_TZ)
     GAME_WEEK_10_CUT_OFF = datetime(year=2020, month=11, day=9, hour=19, tzinfo=INDIA_TZ)
     TEST_DATE = None
