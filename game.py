@@ -1,4 +1,5 @@
 import os
+from typing import List
 
 from config import Config
 
@@ -71,3 +72,19 @@ def upload():
         players.append(player)
     Player.objects.create_all(Player.objects.to_dicts(players))
     print(f"{len(players)} players created.")
+
+
+def update_rank():
+    print("Calculating Ranks")
+    players: List[Player] = Player.objects.get()
+    players.sort(key=lambda player_item: -player_item.ipl2020_score)
+    for player in players:
+        ranked_player = next(rank_player for rank_player in players
+                             if rank_player.ipl2020_score == player.ipl2020_score)
+        player.ipl2020_rank = players.index(ranked_player) + 1
+    players.sort(key=lambda player_item: -player_item.cost)
+    for player in players:
+        ranked_player = next(rank_player for rank_player in players if rank_player.cost == player.cost)
+        player.cost_rank = players.index(ranked_player) + 1
+    Player.objects.save_all(players)
+    print(f"Ranks of {len(players)} players updated.")

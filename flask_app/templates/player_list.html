@@ -102,11 +102,12 @@
 
 {% block scripts %}
 {{ super() }}
-<script>
-    $(document).ready(function () {
-        $('#player_list').DataTable({
-            "order": [[2, "desc"]]
+    <!--suppress JSUnresolvedFunction -->
+    <script>
+        $(document).ready(function () {
+            $('#player_list').DataTable({
+                "order": [[2, "desc"]]
+            });
         });
-    });
-</script>
+    </script>
 {% endblock %}

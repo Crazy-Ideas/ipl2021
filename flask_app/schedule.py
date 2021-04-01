@@ -1,14 +1,16 @@
-import csv
 from datetime import datetime
 from datetime import timedelta
 from typing import List
 
+from firestore_ci import FirestoreDocument
+
 from config import Config, today
 
 
-class Match:
+class Match(FirestoreDocument):
 
     def __init__(self):
+        super().__init__()
         self.teams: list = list()
         self.home_team: str = str()
         self.away_team: str = str()
@@ -42,29 +44,14 @@ class Match:
         return f"btn btn-block btn-primary {'disabled' if self.date > today() else str()}"
 
 
+Match.init()
+
+
 class _Schedule:
 
     def __init__(self):
-        self.schedule: List[Match] = self.prepare_schedule()
+        self.schedule: List[Match] = Match.objects.get()
         self.team_initials = [team_initial for team_name, team_initial in Config.TEAMS.items()]
-
-    @staticmethod
-    def prepare_schedule():
-        match_list = list()
-        schedule_file = open("source/schedule.csv")
-        schedule_reader = csv.DictReader(schedule_file)
-        for row in schedule_reader:
-            match = Match()
-            match.date = datetime.strptime(row[Config.DATE], "%d/%m/%Y %H:%M").replace(tzinfo=Config.INDIA_TZ)
-            match.game_week = int(row[Config.ROUND])
-            match.number = int(row[Config.MATCH_NO])
-            match.home_team = Config.TEAMS[row[Config.HOME_TEAM]]
-            match.away_team = Config.TEAMS[row[Config.AWAY_TEAM]]
-            match.teams = [match.home_team, match.away_team]
-            match.unique_id = row[Config.UNIQUE_ID]
-            match_list.append(match)
-        schedule_file.close()
-        return match_list
 
     @property
     def max_game_week(self):
