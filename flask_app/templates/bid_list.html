@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+
+{% if bids %}
+<table class="table table-bordered table-sm table-hover" id="bid_list">
+    <thead class="thead-dark">
+    <tr>
+        <th class="text-center" scope="col">No</th>
+        <th class="text-center" scope="col">Name</th>
+        {% if all %}
+        <th class="text-center" scope="col">Own</th>
+        {% endif %}
+        {% for user in users %}
+        <th class="text-center" scope="col">{{ user.upper() }}</th>
+        {% endfor %}
+    </tr>
+    </thead>
+    <tbody>
+    {% for bid_batch in bids|batch(users|length) %}
+    <tr>
+        <td class="align-middle text-center">
+            {{ bid_batch[0].bid_order }}
+        </td>
+        <td class="align-middle">
+            {% if all %}
+            {{ bid_batch[0].player_name }}
+            {% else %}
+            <a class="btn btn-block btn-primary"
+               href="{{ url_for('view_player_by_name', player_name=bid_batch[0].player_name) }}">
+                {{ bid_batch[0].player_name }}</a>
+            {% endif %}
+        </td>
+        {% if all %}
+        <td class="align-middle text-center">
+            {% for bid in bid_batch %}
+            {% if bid.winner %}
+            {{ bid.username.upper() }}
+            {% endif %}
+            {% endfor %}
+        </td>
+        {% endif %}
+        {% for bid in bid_batch %}
+        {% if bid.winner %}
+        <td class="text-center align-middle table-success">{{ bid.amount }}</td>
+        {% else %}
+        <td class="text-center align-middle">
+            {% if bid.amount %}
+            {{ bid.amount }}
+            {% else %}
+            -
+            {% endif %}
+        </td>
+        {% endif %}
+        {% endfor %}
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% if not all %}
+<br>
+<div class="row">
+    <div class="col text-center">
+        <a class="btn btn-danger" href="{{ url_for('view_all_bids') }}">View All Bids</a>
+    </div>
+</div>
+{% endif %}
+{% else %}
+<br>
+<div class="row">
+    <div class="col text-center">
+        <h6>There are no bids made</h6>
+    </div>
+</div>
+{% endif %}
+
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+{% if all %}
+<script>
+    $(document).ready(function () {
+        $('#bid_list').DataTable();
+    });
+</script>
+{% endif %}
+{% endblock %}

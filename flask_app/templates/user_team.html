@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+{% if game_week %}
+{% for game_week_batch in range(1, all_game_weeks + 1)|batch(12) %}
+<div class="row">
+    {% for number in game_week_batch %}
+    <div class="col-lg-1">
+        <a class="btn btn-block btn-primary"
+           href="{{ url_for('user_team', owner=owner, game_week=number) }}">
+            GW{{ number }}
+        </a>
+    </div>
+    {% endfor %}
+</div>
+<br>
+{% endfor %}
+{% endif %}
+{% if players or groups %}
+<div class="row">
+    <div class="col-md-4">
+        <div class="card text-center">
+            <h5 class="card-header">
+                Gameweek {{ game_week }}
+            </h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <strong>{{ cut_off }}</strong>
+                </li>
+                {% if edit %}
+                <li class="list-group-item">
+                    <a class="btn btn-block btn-primary" href="{{ url_for('make_captain') }}">
+                        Make Captain
+                    </a>
+                </li>
+                {% else %}
+                <li class="list-group-item">
+                    <a class="btn btn-block btn-primary"
+                       href="{{ url_for('user_players', username=owner) }}">
+                        {{ title }}
+                    </a>
+                </li>
+                {% endif %}
+                <li class="list-group-item">
+                    Captains made <strong>{{ captains }}</strong> of <strong>{{ max_captains }}</strong>
+                </li>
+                <li class="list-group-item list-group-item-success">
+                    Captains earn <strong>2x</strong> points
+                </li>
+                <li class="list-group-item list-group-item-danger">
+                    Subs earn <strong>0.5x</strong> points
+                </li>
+                <li class="list-group-item">
+                    Players earn <strong>1x</strong> points
+                </li>
+            </ul>
+        </div>
+    </div>
+    {% if groups %}
+    <div class="col-md-4">
+        {% for group in groups|groupby('group') %}
+        <div class="card text-center">
+            <h5 class="card-header">
+                Group {{ group.grouper }}
+                {% if edit %}
+                <a class="badge badge-danger" href="{{ url_for('remove_group', group=group.grouper,
+                                captain=group.list[0].player_name) }}">
+                    X
+                </a>
+                {% endif %}
+            </h5>
+            <ul class="list-group list-group-flush">
+                {% for player in group.list %}
+                <li class="list-group-item {{ player.list_group_item }}">
+                    <div class="row">
+                        <div class="col">
+                            <strong>{{ player.player_name }}</strong> -
+                            <strong>{{ player.final_score }}</strong> pts
+                            ({{ player.team }})
+                        </div>
+                    </div>
+                    {% if player.matches %}
+                    {% for match in player.matches %}
+                    <div class="row">
+                        <div class="col">
+                            {{ match.match }}
+                            {% if not edit %}
+                            - <strong>{{ match.score }}</strong> pts
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% else %}
+                    <div class="row">
+                        <div class="col">No Matches</div>
+                    </div>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <br>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% if players %}
+    <div class="col-md-4">
+        <div class="card text-center">
+            <h5 class="card-header">Players</h5>
+            <ul class="list-group list-group-flush">
+                {% for player in players %}
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col">
+                            <strong>{{ player.player_name }}</strong> -
+                            <strong>{{ player.final_score }}</strong> pts
+                            ({{ player.team }})
+                        </div>
+                    </div>
+                    {% if player.matches %}
+                    {% for match in player.matches %}
+                    <div class="row">
+                        <div class="col">
+                            {{ match.match }}
+                            {% if not edit %}
+                            - <strong>{{ match.score }}</strong> pts
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% else %}
+                    <div class="row">
+                        <div class="col">No Matches</div>
+                    </div>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% else %}
+<br>
+<div class="row">
+    <div class="col text-center">
+        <h6>
+            {% if all_game_weeks %}
+            There are no more scheduled matches
+            {% else %}
+            SFL Gameweeks have not yet started
+            {% endif %}
+        </h6>
+    </div>
+</div>
+{% endif %}
+<br>
+{% endblock %}

@@ -1,0 +1,133 @@
+<div class="row">
+    <div class="col-lg-3">
+        <div class="card text-center">
+            <h5 class="card-header">{{ player.name }}</h5>
+            <!--            <img alt="{{ player.name }}" class="card-img" src="{{ url_for('static', filename=player.image) }}">-->
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <strong>{{ player.team }}</strong> - {{ player.type }} - {{ player.country }}
+                </li>
+                {% if player.score %}
+                <li class="list-group-item">
+                    2020 Scored <strong>{{ player.score }}</strong> pts
+                </li>
+                {% if player.owner %}
+                <li class="list-group-item">
+                    {{ player.owner.upper() }} Earned <strong>{{ final_score }}</strong> pts
+                </li>
+                {% endif %}
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="card text-center">
+            <h5 class="card-header">Analysis</h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    Base Price &#8377 <strong>{{ player.base }}</strong> lacs
+                </li>
+                <li class="list-group-item">
+                    Auto bid from <strong>{{ player.get_min_bid() }}</strong> to
+                    <strong>{{ player.get_max_bid() }}</strong>
+                </li>
+                <li class="list-group-item">
+                    Salary &#8377 <strong>{{ player.cost }}</strong> lacs
+                </li>
+                <li class="list-group-item">
+                    Salary Ranked <strong>{{ player.cost_rank }}</strong> of {{ player.cost_rank_total }}
+                </li>
+                <li class="list-group-item">
+                    Salary SBP &#8377 <strong>{{ player.sbp_cost }}</strong> lacs
+                </li>
+                {% if player.ipl2019_score > 0 %}
+                <li class="list-group-item">
+                    2019 Scored <strong>{{ player.ipl2019_score }}</strong> points
+                </li>
+                <li class="list-group-item">
+                    2019 Ranked <strong>{{ player.ipl2019_rank }}</strong> of {{ player.ipl2019_rank_total }}
+                </li>
+                <li class="list-group-item">
+                    2019 SBP &#8377 <strong>{{ player.sbp_2019 }}</strong> lacs
+                </li>
+                {% else %}
+                <li class="list-group-item">
+                    Did not play IPL 2019
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="card text-center">
+            <h5 class="card-header">Schedule</h5>
+            <ul class="list-group list-group-flush">
+                {% for user_team in schedule %}
+                <li class="list-group-item {{ user_team.list_group_item }}">
+                    <div class="row">
+                        <div class="col"><strong>Gameweek {{ user_team.game_week }}</strong></div>
+                    </div>
+                    {% if user_team.matches %}
+                    {% for match in user_team.matches %}
+                    <div class="row">
+                        <div class="col">
+                            {{ match.match }}
+                            {% if user_team.id %}
+                            - <strong>{{ match.score }}</strong> pts
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% else %}
+                    No matches
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="card text-center">
+            <h5 class="card-header">
+                {% if last_player %}
+                <a href="{{ url_for('view_player', player_id=last_player.id) }}">{{ last_player.name }}</a>
+                {% else %}
+                2020 Auction
+                {% endif %}
+            </h5>
+            <ul class="list-group list-group-flush">
+                {% if bids %}
+                <li class="list-group-item">
+                    {% if last_player %}
+                    {% if last_player.owner %}
+                    Owned by <strong>{{ last_player.owner.upper() }}</strong> @ &#8377
+                    <strong>{{ last_player.price }}</strong>
+                    lacs
+                    {% else %}
+                    Unsold
+                    {% endif %}
+                    {% else %}
+                    {% if player.owner %}
+                    Owned by <strong>{{ player.owner.upper() }}</strong> @ &#8377
+                    <strong>{{ player.price }}</strong>
+                    lacs
+                    {% else %}
+                    Unsold
+                    {% endif %}
+                    {% endif %}
+                </li>
+                {% for bid in bids %}
+                <li class="list-group-item">
+                    {{ bid.username.upper() }} {{ bid.status }}
+                    {% if bid.amount %}
+                    {{ bid.amount }}
+                    {% endif %}
+                </li>
+                {% endfor %}
+                {% else %}
+                <li class="list-group-item">Not yet auctioned</li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</div>

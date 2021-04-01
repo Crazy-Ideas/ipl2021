@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+{% if players %}
+<table class="table table-bordered table-sm table-hover" id="player_list">
+    <thead class="thead-dark">
+    <tr>
+        <th class="text-center" scope="col">No</th>
+        <th class="text-center" scope="col">Player</th>
+        <th class="text-center " scope="col">Owner</th>
+        <th class="text-center" scope="col">Score</th>
+        <th class="text-center d-none d-md-table-cell" scope="col">Bat</th>
+        <th class="text-center d-none d-md-table-cell" scope="col">Bowl</th>
+        <th class="text-center d-none d-md-table-cell" scope="col">MM</th>
+        <th class="text-center d-none d-md-table-cell" scope="col">R</th>
+        <th class="text-center d-none d-md-table-cell" scope="col">4s</th>
+        <th class="text-center d-none d-md-table-cell" scope="col">6s</th>
+        <th class="text-center d-none d-md-table-cell" scope="col">O</th>
+        <th class="text-center d-none d-md-table-cell" scope="col">W</th>
+        <th class="text-center d-none d-md-table-cell" scope="col">ER</th>
+        <th class="d-none" scope="col">Owner Full Name Hidden</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for player in players %}
+    <tr class="{{ player.display_class }}">
+        <td class="text-center align-middle">
+            {{ loop.index }}
+        </td>
+        <td class="text-center align-middle font-weight-bold">
+            {{ player.player_name }}
+        </td>
+        <td class="text-center align-middle">
+            {% if player.owner %}
+            {{ player.owner.upper() }}
+            {% else %}
+            Unsold
+            {% endif %}
+        </td>
+        <td class="text-center align-middle font-weight-bold">
+            {{ player.adjusted_points }}
+        </td>
+        <td class="text-center align-middle d-none d-md-table-cell">
+            {{ player.batting_points }}
+        </td>
+        <td class="text-center align-middle d-none d-md-table-cell">
+            {{ player.bowling_points }}
+        </td>
+        <td class="text-center d-none d-md-table-cell align-middle">
+            {{ player.man_of_the_match_points }}
+        </td>
+        <td class="text-center align-middle  d-none d-md-table-cell">
+            {{ player.runs }}
+        </td>
+        <td class="text-center d-none d-md-table-cell align-middle">
+            {{ player.fours }}
+        </td>
+        <td class="text-center d-none d-md-table-cell align-middle">
+            {{ player.sixes }}
+        </td>
+        <td class="text-center align-middle d-none d-md-table-cell">
+            {{ player.overs }}
+        </td>
+        <td class="text-center d-none d-md-table-cell align-middle">
+            {{ player.wickets }}
+        </td>
+        <td class="text-center d-none d-md-table-cell align-middle">
+            {{ player.economy_rate }}
+        </td>
+        <td class="d-none">
+            {{ player.owner_full_name }}
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<br>
+<div class="row">
+    <div class="col text-center">
+        <h6>Match not started or players have not yet scored points</h6>
+    </div>
+</div>
+{% endif %}
+<br>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script>
+    $(document).ready(function () {
+        $('#player_list').DataTable({
+            "order": [[3, "desc"]]
+        });
+    });
+</script>
+{% endblock %}
