@@ -7,13 +7,13 @@ from project_secrets import SecretConfig
 
 
 class Config(SecretConfig):
-    SCORE_2020 = 43682
-    PLAYERS_2020 = 121
-    COST_2020 = 49715
-    TOTAL_COST = 60760
-    PLAYERS_COST = 146
-    BALANCE = 6750
-    TOTAL_PLAYERS = 195
+    SCORE_2020 = 43632
+    PLAYERS_2020 = 120
+    COST_2020 = 49515
+    TOTAL_COST = 60560
+    PLAYERS_COST = 145
+    BALANCE = 6730
+    TOTAL_PLAYERS = 194
     USER_LIST = {"NZ": "Nayan Zaveri", "MB": "Manish Bhatt", "PP": "Pranay Patil", "VP": "Vinayak Patil",
                  "AG": "Avinash Gaikwad", "AN": "Ajit Nayak", "AS": "Arunesh Shah", "SS": "Sunny Saurabh",
                  "HJ": "Hitendra Jain"}
