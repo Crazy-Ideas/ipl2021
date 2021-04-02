@@ -5,17 +5,26 @@
             <img alt="{{ player.name }}" class="card-img" src="{{ player.image }}">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                    <strong>{{ player.team }}</strong> - {{ player.type }} - {{ player.country }}
+                    <strong>{{ player.team }}</strong>
+                </li>
+                <li class="list-group-item">
+                    {{ player.player_auction_status }}
+                </li>
+                <li class="list-group-item">
+                    {{ player.type }}
+                </li>
+                <li class="list-group-item">
+                    {{ player.country }}
                 </li>
                 {% if player.score %}
                     <li class="list-group-item">
-                        2020 Scored <strong>{{ player.score }}</strong> pts
+                        2021 Scored <strong>{{ player.score }}</strong> pts
                     </li>
-                    {% if player.owner %}
-                        <li class="list-group-item">
-                            {{ player.owner.upper() }} Earned <strong>{{ final_score }}</strong> pts
-                        </li>
-                    {% endif %}
+                {% endif %}
+                {% if player.owner %}
+                    <li class="list-group-item">
+                        {{ player.owner.upper() }} Earned <strong>{{ final_score }}</strong> pts
+                    </li>
                 {% endif %}
             </ul>
         </div>
@@ -63,25 +72,25 @@
             <h5 class="card-header">Schedule</h5>
             <ul class="list-group list-group-flush">
                 {% for user_team in schedule %}
-                <li class="list-group-item {{ user_team.list_group_item }}">
-                    <div class="row">
-                        <div class="col"><strong>Gameweek {{ user_team.game_week }}</strong></div>
-                    </div>
-                    {% if user_team.matches %}
-                    {% for match in user_team.matches %}
-                    <div class="row">
-                        <div class="col">
-                            {{ match.match }}
-                            {% if user_team.id %}
-                            - <strong>{{ match.score }}</strong> pts
-                            {% endif %}
+                    <li class="list-group-item {{ user_team.list_group_item }}">
+                        <div class="row">
+                            <div class="col"><strong>Gameweek {{ user_team.game_week }}</strong></div>
                         </div>
-                    </div>
-                    {% endfor %}
-                    {% else %}
-                    No matches
-                    {% endif %}
-                </li>
+                        {% if user_team.matches %}
+                            {% for match in user_team.matches %}
+                                <div class="row">
+                                    <div class="col">
+                                        {{ match.match }}
+                                        {% if user_team.id %}
+                                            - <strong>{{ match.score }}</strong> pts
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        {% else %}
+                            No matches
+                        {% endif %}
+                    </li>
                 {% endfor %}
             </ul>
         </div>
@@ -90,42 +99,42 @@
         <div class="card text-center">
             <h5 class="card-header">
                 {% if last_player %}
-                <a href="{{ url_for('view_player', player_id=last_player.id) }}">{{ last_player.name }}</a>
+                    <a href="{{ url_for('view_player', player_id=last_player.id) }}">{{ last_player.name }}</a>
                 {% else %}
                     2021 Auction
                 {% endif %}
             </h5>
             <ul class="list-group list-group-flush">
                 {% if bids %}
-                <li class="list-group-item">
-                    {% if last_player %}
-                    {% if last_player.owner %}
-                    Owned by <strong>{{ last_player.owner.upper() }}</strong> @ &#8377
-                    <strong>{{ last_player.price }}</strong>
-                    lacs
-                    {% else %}
-                    Unsold
-                    {% endif %}
-                    {% else %}
-                    {% if player.owner %}
-                    Owned by <strong>{{ player.owner.upper() }}</strong> @ &#8377
-                    <strong>{{ player.price }}</strong>
-                    lacs
-                    {% else %}
-                    Unsold
-                    {% endif %}
-                    {% endif %}
-                </li>
-                {% for bid in bids %}
-                <li class="list-group-item">
-                    {{ bid.username.upper() }} {{ bid.status }}
-                    {% if bid.amount %}
-                    {{ bid.amount }}
-                    {% endif %}
-                </li>
-                {% endfor %}
+                    <li class="list-group-item">
+                        {% if last_player %}
+                            {% if last_player.owner %}
+                                Owned by <strong>{{ last_player.owner.upper() }}</strong> @ &#8377
+                                <strong>{{ last_player.price }}</strong>
+                                lacs
+                            {% else %}
+                                Unsold
+                            {% endif %}
+                        {% else %}
+                            {% if player.owner %}
+                                Owned by <strong>{{ player.owner.upper() }}</strong> @ &#8377
+                                <strong>{{ player.price }}</strong>
+                                lacs
+                            {% else %}
+                                Unsold
+                            {% endif %}
+                        {% endif %}
+                    </li>
+                    {% for bid in bids %}
+                        <li class="list-group-item">
+                            {{ bid.username.upper() }} {{ bid.status }}
+                            {% if bid.amount %}
+                                {{ bid.amount }}
+                            {% endif %}
+                        </li>
+                    {% endfor %}
                 {% else %}
-                <li class="list-group-item">Not yet auctioned</li>
+                    <li class="list-group-item">Not yet auctioned</li>
                 {% endif %}
             </ul>
         </div>

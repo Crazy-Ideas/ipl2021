@@ -21,8 +21,8 @@ class Config(SecretConfig):
     TEAMS = {"Mumbai Indians": "MI", "Chennai Super Kings": "CSK", "Delhi Capitals": "DC", "Kings XI Punjab": "KXIP",
              "Royal Challengers Bangalore": "RCB", "TBA": "TBD", "Kolkata Knight Riders": "KKR",
              "Sunrisers Hyderabad": "SRH", "Rajasthan Royals": "RR"}
-    DATE, UNIQUE_ID, HOME_TEAM, AWAY_TEAM = "Date", "Unique Id", "Home Team", "Away Team"
-    ROUND, MATCH_NO = "Gameweek", "Match No"
+    PLAYER_STATUS = {"R": "Retained", "P": "Replaced", "N": "Auctioned - New", "A": "Auctioned - Existing",
+                     "T": "Transferred"}
     NORMAL, CAPTAIN, SUB = "Normal", "Captain", "Sub"
     MULTIPLIER = {NORMAL: 1.0, CAPTAIN: 2.0, SUB: 0.5}
     INDIA_TZ = gettz("Asia/Kolkata")

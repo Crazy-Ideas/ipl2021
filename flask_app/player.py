@@ -41,6 +41,10 @@ class Player(FirestoreDocument):
         return Image.url(file_name)
 
     @property
+    def player_auction_status(self) -> str:
+        return Config.PLAYER_STATUS[self.status] if self.status in Config.PLAYER_STATUS else "Unknown"
+
+    @property
     def sbp_2020(self) -> int:
         return int(round(Config.COST_2020 * self.ipl2020_score / Config.SCORE_2020, -1))
 
