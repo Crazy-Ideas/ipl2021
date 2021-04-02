@@ -136,5 +136,12 @@ class Player(FirestoreDocument):
         max_bid = min_bid if max_bid < min_bid else max_bid
         return max_bid
 
+    def reset_auction_status(self):
+        self.auction_status = str()
+        self.bid_order = 0
+        self.owner = None
+        self.price = 0
+        self._sbp_cost = 0
+
 
 Player.init()

@@ -193,12 +193,9 @@ def reset_auction(auto_bid: bool = False, except_users: List[str] = None):
         user.auto_bid = auto_bid ^ True if except_users and user.username in except_users else auto_bid
     User.objects.save_all(users)
     print(f"{len(users)} users balance update complete.")
-    players = Player.objects.get()
-    for index, player in enumerate(players):
-        player.auction_status = str()
-        player.bid_order = 0
-        player.owner = None
-        player.price = 0
+    players: List[Player] = Player.objects.get()
+    for player in players:
+        player.reset_auction_status()
     Player.objects.save_all(players)
     print(f"{len(players)} players updated.")
     Bid.objects.delete()
