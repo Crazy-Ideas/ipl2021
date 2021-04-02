@@ -9,7 +9,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "google-cloud.json"
 
 # noinspection PyPackageRequirements
 from googleapiclient.discovery import build
-from config import Config
+from config import Config, Image
 from flask_app.schedule import Match
 from flask_app.player import Player
 from flask_app.user import User
@@ -20,6 +20,7 @@ SHEETS = build("sheets", "v4")
 IPL_SHEET_ID = Config.IPL_SHEET_ID
 PLAYER_RANGE = "Players!A2:J197"
 USER_RANGE = "Users!A1:D10"
+PLAYER_IMAGE_RANGE = "PlayerImage!A1:B200"
 
 
 def get_sheet_players():
@@ -34,10 +35,17 @@ def get_sheet_users():
         .get("values", list())
 
 
-def print_users():
-    sheet_players = get_sheet_users()[1:]
-    for player in sheet_players:
-        print(player)
+def update_missing_player_images():
+    players: List[Player] = Player.objects.get()
+    default_file = Image.url("some invalid file name")
+    sheet_players = list()
+    for player in players:
+        if player.image == default_file:
+            sheet_players.append([player.file_name, player.team])
+    body = {"values": sheet_players}
+    SHEETS.spreadsheets().values() \
+        .update(spreadsheetId=IPL_SHEET_ID, range=PLAYER_IMAGE_RANGE, valueInputOption="USER_ENTERED", body=body) \
+        .execute()
     return
 
 

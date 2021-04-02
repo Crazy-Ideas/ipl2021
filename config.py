@@ -32,7 +32,7 @@ class Config(SecretConfig):
     GAME_WEEK_10_CUT_OFF = GAME_WEEK_9_CUT_OFF + timedelta(days=7)
     TEST_DATE = None
     USE_MOCK_SCORE = False
-    EXT = {"jpg"}
+    EXT = {"jpg", "png"}
 
 
 def today() -> datetime:

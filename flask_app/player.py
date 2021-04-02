@@ -36,9 +36,12 @@ class Player(FirestoreDocument):
         return f"{self.name}:{self.team}:{self.pid}"
 
     @property
+    def file_name(self) -> str:
+        return f"{self.name.lower().replace(' ', '_')}"
+
+    @property
     def image(self) -> str:
-        file_name = f"{self.name.lower().replace(' ', '_')}"
-        return Image.url(file_name)
+        return Image.url(self.file_name)
 
     @property
     def player_auction_status(self) -> str:
