@@ -2,20 +2,20 @@
     <div class="col-lg-3">
         <div class="card text-center">
             <h5 class="card-header">{{ player.name }}</h5>
-            <!--            <img alt="{{ player.name }}" class="card-img" src="{{ url_for('static', filename=player.image) }}">-->
+            <img alt="{{ player.name }}" class="card-img" src="{{ player.image }}">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
                     <strong>{{ player.team }}</strong> - {{ player.type }} - {{ player.country }}
                 </li>
                 {% if player.score %}
-                <li class="list-group-item">
-                    2020 Scored <strong>{{ player.score }}</strong> pts
-                </li>
-                {% if player.owner %}
-                <li class="list-group-item">
-                    {{ player.owner.upper() }} Earned <strong>{{ final_score }}</strong> pts
-                </li>
-                {% endif %}
+                    <li class="list-group-item">
+                        2020 Scored <strong>{{ player.score }}</strong> pts
+                    </li>
+                    {% if player.owner %}
+                        <li class="list-group-item">
+                            {{ player.owner.upper() }} Earned <strong>{{ final_score }}</strong> pts
+                        </li>
+                    {% endif %}
                 {% endif %}
             </ul>
         </div>

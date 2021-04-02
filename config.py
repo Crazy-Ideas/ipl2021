@@ -1,13 +1,12 @@
-import os
 from datetime import datetime, timedelta
 
 from dateutil.tz import gettz
+from google.cloud.storage import Client
 
 from project_secrets import SecretConfig
 
 
 class Config(SecretConfig):
-    IMAGES = set(os.listdir("flask_app/static/images"))
     SCORE_2020 = 43682
     PLAYERS_2020 = 121
     COST_2020 = 49715
@@ -33,7 +32,21 @@ class Config(SecretConfig):
     GAME_WEEK_10_CUT_OFF = GAME_WEEK_9_CUT_OFF + timedelta(days=7)
     TEST_DATE = None
     USE_MOCK_SCORE = False
+    EXT = {"jpg"}
 
 
 def today() -> datetime:
     return Config.TEST_DATE if Config.TEST_DATE else datetime.now(tz=Config.INDIA_TZ)
+
+
+class Image:
+    BUCKET = Client().bucket("ipl2021-players")
+    IMAGE_FOLDER = "images"
+    DEFAULT_FILE = f"{IMAGE_FOLDER}/default.jpg"
+
+    @classmethod
+    def url(cls, name: str) -> str:
+        possible_file_names = [f"{cls.IMAGE_FOLDER}/{name}.{ext}" for ext in Config.EXT]
+        file_path = next((file for file in possible_file_names if cls.BUCKET.blob(file).exists()), cls.DEFAULT_FILE)
+        url = cls.BUCKET.blob(file_path).public_url
+        return url

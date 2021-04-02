@@ -5,12 +5,11 @@ from typing import List
 
 from dateutil import parser
 
-from config import Config
-
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "google-cloud.json"
 
 # noinspection PyPackageRequirements
 from googleapiclient.discovery import build
+from config import Config
 from flask_app.schedule import Match
 from flask_app.player import Player
 from flask_app.user import User

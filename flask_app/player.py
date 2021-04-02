@@ -3,7 +3,7 @@ from typing import Optional, List, Tuple, Dict
 
 from firestore_ci.firestore_ci import FirestoreDocument
 
-from config import Config
+from config import Config, Image
 from flask_app.schedule import schedule
 from flask_app.user import User
 
@@ -37,10 +37,8 @@ class Player(FirestoreDocument):
 
     @property
     def image(self) -> str:
-        file_name = f"{self.name.lower().replace(' ', '_')}.jpg"
-        if file_name not in Config.IMAGES:
-            file_name = 'default.jpg'
-        return f'images/{file_name}'
+        file_name = f"{self.name.lower().replace(' ', '_')}"
+        return Image.url(file_name)
 
     @property
     def sbp_2020(self) -> int:
