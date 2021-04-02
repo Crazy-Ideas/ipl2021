@@ -14,6 +14,7 @@ from googleapiclient.discovery import build
 from flask_app.schedule import Match
 from flask_app.player import Player
 from flask_app.user import User
+from flask_app.bid import Bid
 
 SHEETS = build("sheets", "v4")
 
@@ -129,3 +130,77 @@ def prepare_schedule():
     Match.objects.delete()
     Match.objects.create_all(Match.objects.to_dicts(matches))
     print(f"{len(matches)} matches created.")
+
+
+def auction_on():
+    users: List[User] = User.objects.get()
+    for user in users:
+        user.bidding = True
+    User.objects.save_all(users)
+    print(f"Auction turned ON for {len(users)} users.")
+
+
+def auction_off():
+    users: List[User] = User.objects.get()
+    for user in users:
+        user.bidding = False
+    User.objects.save_all(users)
+    print(f"Auction turned OFF for {len(users)} users.")
+
+
+def auto_bid(username: str, status: bool = True):
+    if not isinstance(status, bool):
+        print("status parameter can be only True or False")
+        return
+    status_string = "ON" if status else "OFF"
+    if username.lower() == "all":
+        users: List[User] = User.objects.get()
+        for user in users:
+            user.auto_bid = status
+            if status is False:
+                continue
+            if not user.bidding:
+                continue
+            player = Player.player_in_auction()
+            if player and not Bid.objects.filter_by(player_name=player.name, username=user.username).first():
+                Bid.submit_auto_bids(player, user)
+                print(f"Auto bid submitted for username {user.username}.")
+        User.objects.save_all(users)
+        print(f"Auto bid turned {status_string} for {len(users)} users.")
+        return
+    user: User = User.objects.filter_by(username=username).first()
+    if not user:
+        print(f"username {username} not found in the database.")
+        return
+    user.auto_bid = status
+    user.save()
+    print(f"Auto bid turned {status_string} for username {username}.")
+    if status is False:
+        return
+    if not user.bidding:
+        return
+    player = Player.player_in_auction()
+    if player and not Bid.objects.filter_by(player_name=player.name, username=user.username).first():
+        Bid.submit_auto_bids(player, user)
+        print(f"Auto bid submitted for username {username}.")
+    return
+
+
+def reset_auction(auto_bid: bool = False, except_users: List[str] = None):
+    users = User.objects.get()
+    for user in users:
+        user.balance = Config.BALANCE
+        user.player_count = 0
+        user.auto_bid = auto_bid ^ True if except_users and user.username in except_users else auto_bid
+    User.objects.save_all(users)
+    print(f"{len(users)} users balance update complete.")
+    players = Player.objects.get()
+    for index, player in enumerate(players):
+        player.auction_status = str()
+        player.bid_order = 0
+        player.owner = None
+        player.price = 0
+    Player.objects.save_all(players)
+    print(f"{len(players)} players updated.")
+    Bid.objects.delete()
+    print("All bids deleted.")

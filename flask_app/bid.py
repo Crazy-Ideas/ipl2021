@@ -117,20 +117,6 @@ class Bid(FirestoreDocument):
         return bids
 
     @classmethod
-    def turn_on(cls):
-        for user in User.objects.get():
-            user.bidding = True
-            user.save()
-        return
-
-    @classmethod
-    def turn_off(cls):
-        for user in User.objects.get():
-            user.bidding = False
-            user.save()
-        return
-
-    @classmethod
     def bid_status(cls) -> Tuple[str, Optional[Player]]:
         if not current_user.bidding:
             return 'Auction is OFF', None

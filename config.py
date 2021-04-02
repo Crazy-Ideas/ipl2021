@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from dateutil.tz import gettz
 
@@ -12,7 +12,7 @@ class Config(SecretConfig):
     PLAYERS_2020 = 121
     COST_2020 = 49715
     TOTAL_COST = 60760
-    PLAYERS_COST = 195
+    PLAYERS_COST = 146
     BALANCE = 6750
     TOTAL_PLAYERS = 195
     USER_LIST = {"NZ": "Nayan Zaveri", "MB": "Manish Bhatt", "PP": "Pranay Patil", "VP": "Vinayak Patil",
@@ -29,8 +29,8 @@ class Config(SecretConfig):
     INDIA_TZ = gettz("Asia/Kolkata")
     GAME_WEEK_START = datetime(year=2021, month=4, day=9, hour=19, tzinfo=INDIA_TZ)
     GAME_WEEK_2_CUT_OFF = datetime(year=2021, month=4, day=12, hour=19, tzinfo=INDIA_TZ)
-    GAME_WEEK_9_CUT_OFF = datetime(year=2020, month=11, day=5, hour=19, tzinfo=INDIA_TZ)
-    GAME_WEEK_10_CUT_OFF = datetime(year=2020, month=11, day=9, hour=19, tzinfo=INDIA_TZ)
+    GAME_WEEK_9_CUT_OFF = GAME_WEEK_2_CUT_OFF + timedelta(days=7 * 7)
+    GAME_WEEK_10_CUT_OFF = GAME_WEEK_9_CUT_OFF + timedelta(days=7)
     TEST_DATE = None
     USE_MOCK_SCORE = False
 
