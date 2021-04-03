@@ -1,6 +1,7 @@
 import json
 import os
 from datetime import datetime, timedelta
+from operator import itemgetter
 from typing import List
 
 from dateutil import parser
@@ -42,6 +43,8 @@ def update_missing_player_images():
     for player in players:
         if player.image == default_file:
             sheet_players.append([player.file_name, player.team])
+    sheet_players.sort(key=itemgetter(1))
+    sheet_players.insert(0, ["name", "team"])
     body = {"values": sheet_players}
     SHEETS.spreadsheets().values() \
         .update(spreadsheetId=IPL_SHEET_ID, range=PLAYER_IMAGE_RANGE, valueInputOption="USER_ENTERED", body=body) \
