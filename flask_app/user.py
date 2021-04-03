@@ -117,7 +117,7 @@ def login() -> str:
     response: Response = make_response(redirect(next_page))
     response.set_cookie("token", token, max_age=Config.TOKEN_EXPIRY, secure=Config.CI_SECURITY,
                         httponly=Config.CI_SECURITY, samesite="Strict")
-    return redirect(next_page)
+    return response
 
 
 @ipl_app.route('/logout')
