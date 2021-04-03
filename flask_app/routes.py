@@ -2,7 +2,7 @@ from typing import Tuple
 from urllib.parse import unquote
 
 from flask import render_template, Response, flash, redirect, url_for, request, jsonify
-from flask_login import login_required, current_user
+from flask_login import current_user
 from werkzeug.datastructures import MultiDict
 
 from config import Config
@@ -12,13 +12,13 @@ from flask_app.match_score import MatchPlayer
 from flask_app.player import Player
 from flask_app.schedule import schedule
 from flask_app.team import UserTeam, MakeCaptainForm
-from flask_app.user import User
+from flask_app.user import User, cookie_login_required
 
 
 @ipl_app.route("/")
 @ipl_app.route("/home")
 @ipl_app.route("/users")
-@login_required
+@cookie_login_required
 def home() -> Response:
     users = User.objects.get()
     users.sort(key=lambda user_item: -user_item.points)
@@ -26,7 +26,7 @@ def home() -> Response:
 
 
 @ipl_app.route("/users/<username>/players")
-@login_required
+@cookie_login_required
 def user_players(username: str) -> Response:
     players = Player.objects.filter_by(owner=username).get()
     players.sort(key=lambda player: (-player.score, -player.price))
@@ -36,7 +36,7 @@ def user_players(username: str) -> Response:
 
 
 @ipl_app.route("/players")
-@login_required
+@cookie_login_required
 def all_players() -> Response:
     players = Player.objects.get()
     players.sort(key=lambda player: (-player.score, -player.price))
@@ -44,21 +44,21 @@ def all_players() -> Response:
 
 
 @ipl_app.route("/bids")
-@login_required
+@cookie_login_required
 def view_bids():
     return render_template("bid_list.html", bids=Bid.bid_list(10), users=sorted(ipl_app.config["USER_LIST"]),
                            all=False, title=f"IPL 2021 - Bids")
 
 
 @ipl_app.route("/bids/all")
-@login_required
+@cookie_login_required
 def view_all_bids():
     return render_template("bid_list.html", bids=Bid.bid_list(), users=sorted(ipl_app.config["USER_LIST"]),
                            all=True, title=f"IPL 2021 - Bids")
 
 
 @ipl_app.route("/players/<string:player_id>")
-@login_required
+@cookie_login_required
 def view_player(player_id: str):
     player = Player.get_by_id(player_id)
     if not player:
@@ -80,7 +80,7 @@ def view_player(player_id: str):
 
 
 @ipl_app.route("/players/name/<string:player_name>")
-@login_required
+@cookie_login_required
 def view_player_by_name(player_name: str):
     player: Player = Player.objects.filter_by(name=unquote(player_name)).first()
     if not player:
@@ -90,7 +90,7 @@ def view_player_by_name(player_name: str):
 
 
 @ipl_app.route("/bids/submit")
-@login_required
+@cookie_login_required
 def submit_bid():
     bid_status: Tuple[str, Player] = Bid.bid_status()
     message, player = bid_status
@@ -101,7 +101,7 @@ def submit_bid():
 
 
 @ipl_app.route("/players/<string:player_id>/bids", methods=["GET", "POST"])
-@login_required
+@cookie_login_required
 def bid_player(player_id: str):
     if not current_user.bidding:
         flash("Auction is OFF")
@@ -137,7 +137,7 @@ def bid_player(player_id: str):
 
 
 @ipl_app.route("/user_profile", methods=["POST", "GET"])
-@login_required
+@cookie_login_required
 def user_profile():
     form = AutoBidForm()
     if not form.validate_on_submit():
@@ -153,7 +153,7 @@ def user_profile():
 
 
 @ipl_app.route("/current_bid_status")
-@login_required
+@cookie_login_required
 def current_bid_status():
     message, player = Bid.bid_status()
     if not player:
@@ -170,7 +170,7 @@ def current_bid_status():
 
 
 @ipl_app.route("/user_teams/<string:owner>/gameweek/<int:game_week>")
-@login_required
+@cookie_login_required
 def user_team(owner: str, game_week: int):
     if not 0 < game_week <= schedule.get_game_week():
         flash("Invalid Gameweek")
@@ -179,7 +179,7 @@ def user_team(owner: str, game_week: int):
 
 
 @ipl_app.route("/my_team")
-@login_required
+@cookie_login_required
 def my_team():
     return view_team(current_user.username, schedule.get_game_week() + 1, edit=True)
 
@@ -200,7 +200,7 @@ def view_team(owner: str, game_week: int, edit: bool) -> Response:
 
 
 @ipl_app.route("/my_team/make_captain", methods=["GET", "POST"])
-@login_required
+@cookie_login_required
 def make_captain():
     current_game_week = schedule.get_game_week()
     players = UserTeam.get_players_by_game_week(current_user.username, current_game_week + 1)
@@ -240,7 +240,7 @@ def make_captain():
 
 
 @ipl_app.route("/my_team/remove_group/<int:group>/captain/<string:captain>")
-@login_required
+@cookie_login_required
 def remove_group(group: int, captain: str):
     players = UserTeam.get_players_by_game_week(current_user.username, schedule.get_game_week() + 1)
     group_players = [player for player in players if player.group == group]
@@ -260,13 +260,13 @@ def remove_group(group: int, captain: str):
 
 
 @ipl_app.route("/schedule")
-@login_required
+@cookie_login_required
 def view_schedule():
     return render_template("schedule.html", schedule=schedule.schedule)
 
 
 @ipl_app.route("/schedule/<string:match_id>/match_score")
-@login_required
+@cookie_login_required
 def view_match_score(match_id: str):
     players = MatchPlayer.objects.filter_by(match_id=match_id).get()
     players.sort(key=lambda player: -player.adjusted_points)
@@ -274,7 +274,7 @@ def view_match_score(match_id: str):
 
 
 @ipl_app.route("/man_of_the_match")
-@login_required
+@cookie_login_required
 def view_man_of_the_match():
     players = MatchPlayer.objects.filter_by(man_of_the_match=True).get()
     for player in players:
