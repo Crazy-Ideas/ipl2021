@@ -23,6 +23,10 @@ class Config(SecretConfig):
              "Sunrisers Hyderabad": "SRH", "Rajasthan Royals": "RR"}
     PLAYER_STATUS = {"R": "Retained", "P": "Replaced", "N": "Auctioned - New", "A": "Auctioned - Existing",
                      "T": "Transferred"}
+    ALL_ROUNDER, BATSMAN, WICKETKEEPER = "All-rounder", "Batsman", "Wicketkeeper"
+    FAST_BOWLER, SPIN_BOWLER = "Fast bowler", "Spin bowler"
+    PLAYER_TYPE = {ALL_ROUNDER, BATSMAN, WICKETKEEPER, FAST_BOWLER, SPIN_BOWLER}
+    BOWLERS = {FAST_BOWLER, SPIN_BOWLER}
     NORMAL, CAPTAIN, SUB = "Normal", "Captain", "Sub"
     MULTIPLIER = {NORMAL: 1.0, CAPTAIN: 2.0, SUB: 0.5}
     INDIA_TZ = gettz("Asia/Kolkata")
