@@ -1,6 +1,6 @@
 import json
 from json import JSONDecodeError
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Optional
 
 import requests
 
@@ -131,21 +131,21 @@ def update_match_points():
     print(f"User: {len(updated_users)} users points updated")
 
 
-def get_player_score(player_id: str) -> int:
-    matches: List[Match] = schedule.schedule[:-1]
-    score = 0
-    for match in matches:
-        score_data = get_mock_score(match)
-        if not score_data:
-            print(f"No score data found for match {match}")
-            continue
-        score_data = ScoreData(score_data["data"])
-        playing_xi: List[Tuple[str, str]] = score_data.get_playing_xi()
-        if not any(player_data[0] == player_id for player_data in playing_xi):
-            continue
-        match_player = MatchPlayer()
-        match_player.player_type = next(player for player in Player.objects.get() if player.pid == player_id).type
-        match_player.player_id = player_id
-        match_player.update_scores(score_data)
-        score += match_player.total_points
-    return score
+def get_match_player(player_id: str, match_number: int) -> Optional[MatchPlayer]:
+    match: Match = schedule.schedule[match_number - 1]
+    score_data = get_mock_score(match)
+    if not score_data:
+        print(f"No score data found for match {match}")
+        return None
+    score_data = ScoreData(score_data["data"])
+    playing_xi: List[Tuple[str, str]] = score_data.get_playing_xi()
+    if not any(player_data[0] == player_id for player_data in playing_xi):
+        return None
+    player: Player = Player.objects.filter_by(pid=player_id).first()
+    match_player = MatchPlayer()
+    match_player.player_name = player.name
+    match_player.team = player.team
+    match_player.player_type = player.type
+    match_player.player_id = player_id
+    match_player.update_scores(score_data)
+    return match_player
