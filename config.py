@@ -14,6 +14,7 @@ class Config(SecretConfig):
     PLAYERS_COST = 145
     BALANCE = 6730
     TOTAL_PLAYERS = 194
+    MATCH_DURATION = 6  # In hours
     USER_LIST = {"NZ": "Nayan Zaveri", "MB": "Manish Bhatt", "PP": "Pranay Patil", "VP": "Vinayak Patil",
                  "AG": "Avinash Gaikwad", "AN": "Ajit Nayak", "AS": "Arunesh Shah", "SS": "Sunny Saurabh",
                  "HJ": "Hitendra Jain"}
