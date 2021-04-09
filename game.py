@@ -11,7 +11,8 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "google-cloud.json"
 # noinspection PyPackageRequirements
 from googleapiclient.discovery import build
 from config import Config, Image
-from flask_app.schedule import Match
+from scoring import get_mock_score
+from flask_app.schedule import Match, schedule
 from flask_app.player import Player
 from flask_app.user import User
 from flask_app.bid import Bid
@@ -120,9 +121,9 @@ def _get_game_week(date: datetime) -> int:
 
 def prepare_schedule():
     with open("source/schedule2021.json") as file:
-        schedule = json.load(file)["matches"]
+        schedule_data = json.load(file)["matches"]
     matches: List[Match] = list()
-    for match in schedule:
+    for match in schedule_data:
         if match["team-1"] not in Config.TEAMS or match["team-2"] not in Config.TEAMS:
             continue
         doc_match: Match = Match()
@@ -158,7 +159,7 @@ def auction_off():
     print(f"Auction turned OFF for {len(users)} users.")
 
 
-def auto_bid(username: str, status: bool = True):
+def change_auto_bid(username: str, status: bool = True):
     if not isinstance(status, bool):
         print("status parameter can be only True or False")
         return
@@ -211,3 +212,12 @@ def reset_auction(auto_bid: bool = False, except_users: List[str] = None):
     print(f"{len(players)} players updated.")
     Bid.objects.delete()
     print("All bids deleted.")
+
+
+def save_file(match_number: int):
+    match = next(match for match in schedule.schedule if match.number == match_number)
+    if not match:
+        print("Match not found with this number")
+        return
+    get_mock_score(match)
+    print(f"{match.file_name} saved.")

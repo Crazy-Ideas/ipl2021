@@ -55,7 +55,7 @@ def update_match_points():
     updated_players = list()
     user_teams: List[UserTeam] = UserTeam.objects.filter("game_week", ">=", schedule.get_game_week() - 1).get()
     updated_teams = list()
-    match_ids = [match.unique_id for match in matches]
+    match_ids = [str(match.unique_id) for match in matches]
     match_players: List[MatchPlayer] = MatchPlayer.objects.filter("match_id", MatchPlayer.objects.IN, match_ids).get()
     updated_match_players = list()
     created_match_players = list()

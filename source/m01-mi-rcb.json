@@ -1,0 +1,311 @@
+{
+  "dateTimeGMT": "2021-04-09T14:00:00.000Z",
+  "data": {
+    "fielding": [
+      {
+        "title": "Fielding for Mumbai Indians INNINGS (20 overs maximum)Royal Challengers Bangalore Team",
+        "scores": [
+          {
+            "name": "AB de Villiers",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "44936"
+          },
+          {
+            "name": "Virat Kohli",
+            "runout": 1,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 0,
+            "pid": "253802"
+          },
+          {
+            "name": "Yuzvendra Chahal",
+            "runout": 1,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 0,
+            "pid": "430246"
+          }
+        ]
+      }
+    ],
+    "bowling": [
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 1,
+            "0s": 8,
+            "Econ": "5.14",
+            "W": "0",
+            "R": "12",
+            "M": "0",
+            "O": "2.2",
+            "bowler": "Mohammed Siraj",
+            "pid": "940973"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 1,
+            "0s": 11,
+            "Econ": "5.00",
+            "W": "1",
+            "R": "15",
+            "M": "0",
+            "O": "3",
+            "bowler": "Kyle Jamieson",
+            "pid": "625960"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 2,
+            "4s": 2,
+            "0s": 8,
+            "Econ": "8.66",
+            "W": "0",
+            "R": "26",
+            "M": "0",
+            "O": "3",
+            "bowler": "Yuzvendra Chahal",
+            "pid": "430246"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 1,
+            "0s": 0,
+            "Econ": "14.00",
+            "W": "0",
+            "R": "14",
+            "M": "0",
+            "O": "1",
+            "bowler": "Shahbaz Ahmed",
+            "pid": "1159711"
+          },
+          {
+            "NB": "1",
+            "WD": "0",
+            "6s": 1,
+            "4s": 1,
+            "0s": 1,
+            "Econ": "15.00",
+            "W": "0",
+            "R": "15",
+            "M": "0",
+            "O": "1",
+            "bowler": "Harshal Patel",
+            "pid": "390481"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 0,
+            "4s": 2,
+            "0s": 1,
+            "Econ": "13.00",
+            "W": "0",
+            "R": "13",
+            "M": "0",
+            "O": "1",
+            "bowler": "Dan Christian",
+            "pid": "4864"
+          }
+        ],
+        "title": "Bowling To Mumbai Indians INNINGS (20 overs maximum)Royal Challengers Bangalore Team"
+      }
+    ],
+    "batting": [
+      {
+        "scores": [
+          {
+            "dismissal-by": [
+              {
+                "name": "Virat Kohli",
+                "pid": "253802"
+              },
+              {
+                "name": "Yuzvendra Chahal",
+                "pid": "430246"
+              }
+            ],
+            "dismissal": "runout",
+            "SR": 126,
+            "6s": 1,
+            "4s": 1,
+            "M": 0,
+            "B": 15,
+            "R": 19,
+            "dismissal-info": "run out (Kohli/Chahal)",
+            "batsman": "Rohit Sharma\u00a0(c)",
+            "pid": "34102"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 143,
+            "6s": 3,
+            "4s": 3,
+            "M": 0,
+            "B": 30,
+            "R": 43,
+            "dismissal-info": "not out",
+            "batsman": "Chris Lynn",
+            "pid": "326637"
+          },
+          {
+            "dismissal-by": {
+              "name": "AB de Villiers",
+              "pid": "44936"
+            },
+            "dismissal": "catch",
+            "SR": 134,
+            "6s": 1,
+            "4s": 4,
+            "M": 0,
+            "B": 23,
+            "R": 31,
+            "dismissal-info": "c  de Villiers b Jamieson",
+            "batsman": "Suryakumar Yadav",
+            "pid": "446507"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 1,
+            "R": 0,
+            "dismissal-info": "not out",
+            "batsman": "Ishan Kishan\u00a0 ",
+            "pid": "720471"
+          }
+        ],
+        "title": "Mumbai Indians INNINGS (20 overs maximum)Royal Challengers Bangalore Team"
+      }
+    ],
+    "team": [
+      {
+        "players": [
+          {
+            "name": "Rohit Sharma",
+            "pid": "34102"
+          },
+          {
+            "name": "Chris Lynn",
+            "pid": "326637"
+          },
+          {
+            "name": "Suryakumar Yadav",
+            "pid": "446507"
+          },
+          {
+            "name": "Ishan Kishan",
+            "pid": "720471"
+          },
+          {
+            "name": "Hardik Pandya",
+            "pid": "625371"
+          },
+          {
+            "name": "Kieron Pollard",
+            "pid": "230559"
+          },
+          {
+            "name": "Krunal Pandya",
+            "pid": "471342"
+          },
+          {
+            "name": "Marco Jansen",
+            "pid": "696401"
+          },
+          {
+            "name": "Rahul Chahar",
+            "pid": "1064812"
+          },
+          {
+            "name": "Trent Boult",
+            "pid": "277912"
+          },
+          {
+            "name": "Jasprit Bumrah",
+            "pid": "625383"
+          }
+        ],
+        "name": "Mumbai Indians"
+      },
+      {
+        "players": [
+          {
+            "name": "Virat Kohli",
+            "pid": "253802"
+          },
+          {
+            "name": "Rajat Patidar",
+            "pid": "823703"
+          },
+          {
+            "name": "AB de Villiers",
+            "pid": "44936"
+          },
+          {
+            "name": "Glenn Maxwell",
+            "pid": "325026"
+          },
+          {
+            "name": "Washington Sundar",
+            "pid": "719715"
+          },
+          {
+            "name": "Daniel Christian",
+            "pid": "4864"
+          },
+          {
+            "name": "Kyle Jamieson",
+            "pid": "625960"
+          },
+          {
+            "name": "Harshal Patel",
+            "pid": "390481"
+          },
+          {
+            "name": "Shahbaz Ahmed",
+            "pid": "1159711"
+          },
+          {
+            "name": "Mohammed Siraj",
+            "pid": "940973"
+          },
+          {
+            "name": "Yuzvendra Chahal",
+            "pid": "430246"
+          }
+        ],
+        "name": "Royal Challengers Bangalore"
+      }
+    ],
+    "man-of-the-match": "",
+    "toss_winner_team": "Royal Challengers Bangalore",
+    "matchStarted": true
+  },
+  "cache3": true,
+  "creditsLeft": 236,
+  "v": "1",
+  "ttl": 2,
+  "provider": {
+    "source": "Various",
+    "url": "https://cricapi.com/",
+    "pubDate": "2021-04-09T14:57:56.800Z"
+  }
+}
