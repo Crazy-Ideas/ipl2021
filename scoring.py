@@ -140,6 +140,7 @@ def get_match_player(player_id: str, match_number: int) -> Optional[MatchPlayer]
     score_data = ScoreData(score_data["data"])
     playing_xi: List[Tuple[str, str]] = score_data.get_playing_xi()
     if not any(player_data[0] == player_id for player_data in playing_xi):
+        print("Player ID is not present in playing XI")
         return None
     player: Player = Player.objects.filter_by(pid=player_id).first()
     match_player = MatchPlayer()

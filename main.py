@@ -34,6 +34,9 @@ def create_game_week(data: dict, _):
 
 def get_score(player_id: str, match_number: int):
     player = get_match_player(player_id, match_number)
+    if not player:
+        print(f"No score found for player {player_id} in match number {match_number}.")
+        return
     print(f"Player: {player.player_name} ({player.team} - {player.player_type})\nTotal Points: {player.total_points}")
     print(f"Batting: {player.batting_points} (Runs: {player.runs}, Balls: {player.balls}, SR: {player.strike_rate}, "
           f"Dismissal: {player.dismissal if player.dismissal else 'not out'}, 4s: {player.fours}, 6s: {player.sixes})")
