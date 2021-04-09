@@ -31,6 +31,15 @@
             "lbw": 0,
             "catch": 0,
             "pid": "430246"
+          },
+          {
+            "name": "Washington Sundar",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "719715"
           }
         ]
       }
@@ -43,12 +52,12 @@
             "WD": "0",
             "6s": 0,
             "4s": 1,
-            "0s": 8,
-            "Econ": "5.14",
+            "0s": 9,
+            "Econ": "5.00",
             "W": "0",
-            "R": "12",
+            "R": "15",
             "M": "0",
-            "O": "2.2",
+            "O": "3",
             "bowler": "Mohammed Siraj",
             "pid": "940973"
           },
@@ -69,14 +78,14 @@
           {
             "NB": "0",
             "WD": "0",
-            "6s": 2,
-            "4s": 2,
+            "6s": 3,
+            "4s": 3,
             "0s": 8,
-            "Econ": "8.66",
+            "Econ": "10.25",
             "W": "0",
-            "R": "26",
+            "R": "41",
             "M": "0",
-            "O": "3",
+            "O": "4",
             "bowler": "Yuzvendra Chahal",
             "pid": "430246"
           },
@@ -112,15 +121,29 @@
             "NB": "0",
             "WD": "1",
             "6s": 0,
-            "4s": 2,
-            "0s": 1,
-            "Econ": "13.00",
+            "4s": 3,
+            "0s": 2,
+            "Econ": "12.75",
             "W": "0",
-            "R": "13",
+            "R": "17",
             "M": "0",
-            "O": "1",
+            "O": "1.2",
             "bowler": "Dan Christian",
             "pid": "4864"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 1,
+            "0s": 2,
+            "Econ": "7.00",
+            "W": "1",
+            "R": "7",
+            "M": "0",
+            "O": "1",
+            "bowler": "Washington Sundar",
+            "pid": "719715"
           }
         ],
         "title": "Bowling To Mumbai Indians INNINGS (20 overs maximum)Royal Challengers Bangalore Team"
@@ -152,14 +175,18 @@
             "pid": "34102"
           },
           {
-            "dismissal": "not out",
-            "SR": 143,
+            "dismissal-by": {
+              "name": "Washington Sundar",
+              "pid": "719715"
+            },
+            "dismissal": "catch & bowled",
+            "SR": 140,
             "6s": 3,
-            "4s": 3,
+            "4s": 4,
             "M": 0,
-            "B": 30,
-            "R": 43,
-            "dismissal-info": "not out",
+            "B": 35,
+            "R": 49,
+            "dismissal-info": "c & b Washington Sundar",
             "batsman": "Chris Lynn",
             "pid": "326637"
           },
@@ -181,15 +208,27 @@
           },
           {
             "dismissal": "not out",
-            "SR": 0,
-            "6s": 0,
-            "4s": 0,
+            "SR": 170,
+            "6s": 1,
+            "4s": 1,
             "M": 0,
-            "B": 1,
-            "R": 0,
+            "B": 10,
+            "R": 17,
             "dismissal-info": "not out",
             "batsman": "Ishan Kishan\u00a0 ",
             "pid": "720471"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 150,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 4,
+            "R": 6,
+            "dismissal-info": "not out",
+            "batsman": "Hardik Pandya",
+            "pid": "625371"
           }
         ],
         "title": "Mumbai Indians INNINGS (20 overs maximum)Royal Challengers Bangalore Team"
@@ -300,12 +339,12 @@
     "matchStarted": true
   },
   "cache3": true,
-  "creditsLeft": 236,
+  "creditsLeft": 232,
   "v": "1",
   "ttl": 2,
   "provider": {
     "source": "Various",
     "url": "https://cricapi.com/",
-    "pubDate": "2021-04-09T14:57:56.800Z"
+    "pubDate": "2021-04-09T15:13:01.400Z"
   }
 }

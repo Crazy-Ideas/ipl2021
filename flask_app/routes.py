@@ -275,7 +275,10 @@ def view_match_score(match_id: str):
 
 @ipl_app.route("/man_of_the_match")
 @cookie_login_required
-def view_man_of_the_match():
+def view_current_match():
+    matches = schedule.get_matches_being_played()
+    if matches:
+        return redirect(url_for("view_match_score", match_id=str(matches[0].unique_id)))
     players = MatchPlayer.objects.filter_by(man_of_the_match=True).get()
     for player in players:
         player.match_number = next(match.number for match in schedule.schedule
