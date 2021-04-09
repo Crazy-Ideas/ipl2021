@@ -47,7 +47,8 @@ class ScoreData:
         return self.get_float_value(pid, "SR", "batting")
 
     def get_dismissal(self, pid: str) -> str:
-        return self.get_string_value(pid, "dismissal", "batting")
+        dismissal = self.get_string_value(pid, "dismissal", "batting")
+        return str() if dismissal == "not out" else dismissal
 
     def get_overs(self, pid: str) -> float:
         return self.get_float_value(pid, "O", "bowling")
