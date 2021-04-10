@@ -1,3 +1,4 @@
+from datetime import timedelta
 from typing import Tuple
 from urllib.parse import unquote
 
@@ -5,7 +6,7 @@ from flask import render_template, Response, flash, redirect, url_for, request, 
 from flask_login import current_user
 from werkzeug.datastructures import MultiDict
 
-from config import Config
+from config import Config, today
 from flask_app import ipl_app
 from flask_app.bid import BidForm, Bid, AutoBidForm
 from flask_app.match_score import MatchPlayer
@@ -278,7 +279,10 @@ def view_match_score(match_id: str):
 def view_current_match():
     matches = schedule.get_matches_being_played()
     if matches:
-        return redirect(url_for("view_match_score", match_id=str(matches[0].unique_id)))
+        match_id = str(matches[0].unique_id)
+        if len(matches) == 2 and today() > matches[0] + timedelta(hours=4):
+            match_id = str(matches[1].unique_id)
+        return redirect(url_for("view_match_score", match_id=match_id))
     players = MatchPlayer.objects.filter_by(man_of_the_match=True).get()
     for player in players:
         player.match_number = next(match.number for match in schedule.schedule
