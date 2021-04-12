@@ -1,0 +1,590 @@
+{
+  "dateTimeGMT": "2021-04-10T14:00:00.000Z",
+  "data": {
+    "fielding": [
+      {
+        "title": "Fielding for Chennai Super Kings INNINGS (20 overs maximum)",
+        "scores": [
+          {
+            "name": "Shikhar Dhawan",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 3,
+            "pid": "28235"
+          },
+          {
+            "name": "Chris Woakes",
+            "runout": 1,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 0,
+            "catch": 0,
+            "pid": "247235"
+          },
+          {
+            "name": "Avesh Khan",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 1,
+            "catch": 0,
+            "pid": "694211"
+          },
+          {
+            "name": "Rishabh Pant",
+            "runout": 1,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 0,
+            "pid": "931581"
+          }
+        ]
+      },
+      {
+        "title": "Fielding for Delhi Capitals INNINGS (target: 189 runs from 20 overs)",
+        "scores": [
+          {
+            "name": "Moeen Ali",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "8917"
+          },
+          {
+            "name": "Shardul Thakur",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 1,
+            "catch": 0,
+            "pid": "475281"
+          },
+          {
+            "name": "Sam Curran",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "662973"
+          }
+        ]
+      }
+    ],
+    "bowling": [
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 3,
+            "0s": 11,
+            "Econ": "6.00",
+            "W": "2",
+            "R": "18",
+            "M": "0",
+            "O": "3",
+            "bowler": "Chris Woakes",
+            "pid": "247235"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 0,
+            "4s": 3,
+            "0s": 11,
+            "Econ": "5.75",
+            "W": "2",
+            "R": "23",
+            "M": "0",
+            "O": "4",
+            "bowler": "Avesh Khan",
+            "pid": "694211"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 4,
+            "4s": 4,
+            "0s": 9,
+            "Econ": "11.75",
+            "W": "1",
+            "R": "47",
+            "M": "0",
+            "O": "4",
+            "bowler": "Ravichandran Ashwin",
+            "pid": "26421"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 2,
+            "4s": 4,
+            "0s": 7,
+            "Econ": "10.00",
+            "W": "1",
+            "R": "40",
+            "M": "0",
+            "O": "4",
+            "bowler": "Tom Curran",
+            "pid": "550235"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 2,
+            "4s": 0,
+            "0s": 4,
+            "Econ": "9.00",
+            "W": "0",
+            "R": "27",
+            "M": "0",
+            "O": "3",
+            "bowler": "Amit Mishra",
+            "pid": "31107"
+          },
+          {
+            "NB": "1",
+            "WD": "0",
+            "6s": 2,
+            "4s": 2,
+            "0s": 4,
+            "Econ": "13.00",
+            "W": "0",
+            "R": "26",
+            "M": "0",
+            "O": "2",
+            "bowler": "Marcus Stoinis",
+            "pid": "325012"
+          }
+        ],
+        "title": "Bowling To Chennai Super Kings INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 5,
+            "0s": 8,
+            "Econ": "9.00",
+            "W": "0",
+            "R": "36",
+            "M": "0",
+            "O": "4",
+            "bowler": "Deepak Chahar",
+            "pid": "447261"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 3,
+            "0s": 2,
+            "Econ": "12.00",
+            "W": "0",
+            "R": "24",
+            "M": "0",
+            "O": "2",
+            "bowler": "Sam Curran",
+            "pid": "662973"
+          },
+          {
+            "NB": "0",
+            "WD": "2",
+            "6s": 0,
+            "4s": 11,
+            "0s": 6,
+            "Econ": "14.45",
+            "W": "2",
+            "R": "53",
+            "M": "0",
+            "O": "3.4",
+            "bowler": "Shardul Thakur",
+            "pid": "475281"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 0,
+            "0s": 2,
+            "Econ": "8.00",
+            "W": "0",
+            "R": "16",
+            "M": "0",
+            "O": "2",
+            "bowler": "Ravindra Jadeja",
+            "pid": "234675"
+          },
+          {
+            "NB": "1",
+            "WD": "0",
+            "6s": 2,
+            "4s": 2,
+            "0s": 2,
+            "Econ": "11.00",
+            "W": "0",
+            "R": "33",
+            "M": "0",
+            "O": "3",
+            "bowler": "Moeen Ali",
+            "pid": "8917"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 0,
+            "4s": 3,
+            "0s": 7,
+            "Econ": "7.00",
+            "W": "1",
+            "R": "28",
+            "M": "0",
+            "O": "4",
+            "bowler": "Dwayne Bravo",
+            "pid": "51439"
+          }
+        ],
+        "title": "Bowling To Delhi Capitals INNINGS (target: 189 runs from 20 overs)"
+      }
+    ],
+    "batting": [
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Shikhar Dhawan",
+              "pid": "28235"
+            },
+            "dismissal": "catch",
+            "SR": 62,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 8,
+            "R": 5,
+            "dismissal-info": "c Dhawan b Woakes",
+            "batsman": "Ruturaj Gaikwad",
+            "pid": "1060380"
+          },
+          {
+            "dismissal-by": {
+              "name": "Avesh Khan",
+              "pid": "694211"
+            },
+            "dismissal": "lbw",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 3,
+            "R": 0,
+            "dismissal-info": "lbw b Avesh Khan",
+            "batsman": "Faf du Plessis",
+            "pid": "44828"
+          },
+          {
+            "dismissal-by": {
+              "name": "Shikhar Dhawan",
+              "pid": "28235"
+            },
+            "dismissal": "catch",
+            "SR": 150,
+            "6s": 2,
+            "4s": 4,
+            "M": 0,
+            "B": 24,
+            "R": 36,
+            "dismissal-info": "c Dhawan b Ashwin",
+            "batsman": "Moeen Ali",
+            "pid": "8917"
+          },
+          {
+            "dismissal-by": [
+              {
+                "name": "Chris Woakes",
+                "pid": "247235"
+              },
+              {
+                "name": "Rishabh Pant",
+                "pid": "931581"
+              }
+            ],
+            "dismissal": "runout",
+            "SR": 150,
+            "6s": 4,
+            "4s": 3,
+            "M": 0,
+            "B": 36,
+            "R": 54,
+            "dismissal-info": "run out (Woakes/ Pant)",
+            "batsman": "Suresh Raina",
+            "pid": "33335"
+          },
+          {
+            "dismissal-by": {
+              "name": "Shikhar Dhawan",
+              "pid": "28235"
+            },
+            "dismissal": "catch",
+            "SR": 143,
+            "6s": 2,
+            "4s": 1,
+            "M": 0,
+            "B": 16,
+            "R": 23,
+            "dismissal-info": "c Dhawan b Curran",
+            "batsman": "Ambati Rayudu",
+            "pid": "33141"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 152,
+            "6s": 0,
+            "4s": 3,
+            "M": 0,
+            "B": 17,
+            "R": 26,
+            "dismissal-info": "not out",
+            "batsman": "Ravindra Jadeja",
+            "pid": "234675"
+          },
+          {
+            "dismissal-by": {
+              "name": "Avesh Khan",
+              "pid": "694211"
+            },
+            "dismissal": "bowled",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 2,
+            "R": 0,
+            "dismissal-info": "b Avesh Khan",
+            "batsman": "MS Dhoni\u00a0(c) ",
+            "pid": "28081"
+          },
+          {
+            "dismissal-by": {
+              "name": "Chris Woakes",
+              "pid": "247235"
+            },
+            "dismissal": "bowled",
+            "SR": 226,
+            "6s": 2,
+            "4s": 4,
+            "M": 0,
+            "B": 15,
+            "R": 34,
+            "dismissal-info": "b Woakes",
+            "batsman": "Sam Curran",
+            "pid": "662973"
+          }
+        ],
+        "title": "Chennai Super Kings INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Moeen Ali",
+              "pid": "8917"
+            },
+            "dismissal": "catch",
+            "SR": 189,
+            "6s": 3,
+            "4s": 9,
+            "M": 0,
+            "B": 38,
+            "R": 72,
+            "dismissal-info": "c Ali b Bravo",
+            "batsman": "Prithvi Shaw",
+            "pid": "1070168"
+          },
+          {
+            "dismissal-by": {
+              "name": "Shardul Thakur",
+              "pid": "475281"
+            },
+            "dismissal": "lbw",
+            "SR": 157,
+            "6s": 2,
+            "4s": 10,
+            "M": 0,
+            "B": 54,
+            "R": 85,
+            "dismissal-info": "lbw b Thakur",
+            "batsman": "Shikhar Dhawan",
+            "pid": "28235"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 125,
+            "6s": 0,
+            "4s": 2,
+            "M": 0,
+            "B": 12,
+            "R": 15,
+            "dismissal-info": "not out",
+            "batsman": "Rishabh Pant\u00a0(c) ",
+            "pid": "931581"
+          },
+          {
+            "dismissal-by": {
+              "name": "Sam Curran",
+              "pid": "662973"
+            },
+            "dismissal": "catch",
+            "SR": 155,
+            "6s": 0,
+            "4s": 3,
+            "M": 0,
+            "B": 9,
+            "R": 14,
+            "dismissal-info": "c Curran b Thakur",
+            "batsman": "Marcus Stoinis",
+            "pid": "325012"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 0,
+            "R": 0,
+            "dismissal-info": "not out",
+            "batsman": "Shimron Hetmyer",
+            "pid": "670025"
+          }
+        ],
+        "title": "Delhi Capitals INNINGS (target: 189 runs from 20 overs)"
+      }
+    ],
+    "team": [
+      {
+        "players": [
+          {
+            "name": "Ruturaj Gaikwad",
+            "pid": "1060380"
+          },
+          {
+            "name": "Faf du Plessis",
+            "pid": "44828"
+          },
+          {
+            "name": "Moeen Ali",
+            "pid": "8917"
+          },
+          {
+            "name": "Suresh Raina",
+            "pid": "33335"
+          },
+          {
+            "name": "Ambati Rayudu",
+            "pid": "33141"
+          },
+          {
+            "name": "Ravindra Jadeja",
+            "pid": "234675"
+          },
+          {
+            "name": "MS Dhoni",
+            "pid": "28081"
+          },
+          {
+            "name": "Sam Curran",
+            "pid": "662973"
+          },
+          {
+            "name": "Dwayne Bravo",
+            "pid": "51439"
+          },
+          {
+            "name": "Shardul Thakur",
+            "pid": "475281"
+          },
+          {
+            "name": "Deepak Chahar",
+            "pid": "447261"
+          }
+        ],
+        "name": "Chennai Super Kings"
+      },
+      {
+        "players": [
+          {
+            "name": "Prithvi Shaw",
+            "pid": "1070168"
+          },
+          {
+            "name": "Shikhar Dhawan",
+            "pid": "28235"
+          },
+          {
+            "name": "Rishabh Pant",
+            "pid": "931581"
+          },
+          {
+            "name": "Marcus Stoinis",
+            "pid": "325012"
+          },
+          {
+            "name": "Shimron Hetmyer",
+            "pid": "670025"
+          },
+          {
+            "name": "Ajinkya Rahane",
+            "pid": "277916"
+          },
+          {
+            "name": "Chris Woakes",
+            "pid": "247235"
+          },
+          {
+            "name": "Tom Curran",
+            "pid": "550235"
+          },
+          {
+            "name": "Ravichandran Ashwin",
+            "pid": "26421"
+          },
+          {
+            "name": "Amit Mishra",
+            "pid": "31107"
+          },
+          {
+            "name": "Avesh Khan",
+            "pid": "694211"
+          }
+        ],
+        "name": "Delhi Capitals"
+      }
+    ],
+    "man-of-the-match": {
+      "name": "Shikhar Dhawan",
+      "pid": "28235"
+    },
+    "toss_winner_team": "Delhi Capitals",
+    "winner_team": "Delhi Capitals",
+    "matchStarted": true
+  },
+  "cache3": true,
+  "creditsLeft": 192,
+  "v": "1",
+  "ttl": 2,
+  "provider": {
+    "source": "Various",
+    "url": "https://cricapi.com/",
+    "pubDate": "2021-04-12T03:47:51.166Z"
+  }
+}
