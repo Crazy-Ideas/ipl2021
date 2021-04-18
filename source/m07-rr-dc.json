@@ -1,0 +1,720 @@
+{
+  "dateTimeGMT": "2021-04-15T14:00:00.000Z",
+  "data": {
+    "fielding": [
+      {
+        "title": "Fielding for Delhi Capitals INNINGS (20 overs maximum)",
+        "scores": [
+          {
+            "name": "Jos Buttler",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "308967"
+          },
+          {
+            "name": "David Miller",
+            "runout": 1,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "321777"
+          },
+          {
+            "name": "Mustafizur Rahman",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 0,
+            "catch": 0,
+            "pid": "330902"
+          },
+          {
+            "name": "Jaydev Unadkat",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "390484"
+          },
+          {
+            "name": "Rahul Tewatia",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "423838"
+          },
+          {
+            "name": "Sanju Samson",
+            "runout": 1,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "425943"
+          },
+          {
+            "name": "Riyan Parag",
+            "runout": 1,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 0,
+            "pid": "1079434"
+          }
+        ]
+      },
+      {
+        "title": "Fielding for Rajasthan Royals INNINGS (target: 148 runs from 20 overs)",
+        "scores": [
+          {
+            "name": "Shikhar Dhawan",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 3,
+            "pid": "28235"
+          },
+          {
+            "name": "Kagiso Rabada",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "550215"
+          },
+          {
+            "name": "Lalit Yadav",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 2,
+            "pid": "930189"
+          },
+          {
+            "name": "Rishabh Pant",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "931581"
+          }
+        ]
+      }
+    ],
+    "bowling": [
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 4,
+            "0s": 5,
+            "Econ": "8.25",
+            "W": "0",
+            "R": "33",
+            "M": "0",
+            "O": "4",
+            "bowler": "Chetan Sakariya",
+            "pid": "1131754"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 2,
+            "0s": 15,
+            "Econ": "3.75",
+            "W": "3",
+            "R": "15",
+            "M": "0",
+            "O": "4",
+            "bowler": "Jaydev Unadkat",
+            "pid": "390484"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 0,
+            "4s": 4,
+            "0s": 7,
+            "Econ": "9.00",
+            "W": "1",
+            "R": "27",
+            "M": "0",
+            "O": "3",
+            "bowler": "Chris Morris",
+            "pid": "439952"
+          },
+          {
+            "NB": "0",
+            "WD": "2",
+            "6s": 0,
+            "4s": 4,
+            "0s": 11,
+            "Econ": "7.25",
+            "W": "2",
+            "R": "29",
+            "M": "0",
+            "O": "4",
+            "bowler": "Mustafizur Rahman",
+            "pid": "330902"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 0,
+            "4s": 2,
+            "0s": 3,
+            "Econ": "8.00",
+            "W": "0",
+            "R": "16",
+            "M": "0",
+            "O": "2",
+            "bowler": "Riyan Parag",
+            "pid": "1079434"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 4,
+            "0s": 6,
+            "Econ": "9.00",
+            "W": "0",
+            "R": "27",
+            "M": "0",
+            "O": "3",
+            "bowler": "Rahul Tewatia",
+            "pid": "423838"
+          }
+        ],
+        "title": "Bowling To Delhi Capitals INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 2,
+            "0s": 13,
+            "Econ": "5.50",
+            "W": "2",
+            "R": "22",
+            "M": "0",
+            "O": "4",
+            "bowler": "Chris Woakes",
+            "pid": "247235"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 2,
+            "4s": 3,
+            "0s": 11,
+            "Econ": "8.00",
+            "W": "3",
+            "R": "32",
+            "M": "0",
+            "O": "4",
+            "bowler": "Avesh Khan",
+            "pid": "694211"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 2,
+            "4s": 2,
+            "0s": 12,
+            "Econ": "7.50",
+            "W": "2",
+            "R": "30",
+            "M": "0",
+            "O": "4",
+            "bowler": "Kagiso Rabada",
+            "pid": "550215"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 0,
+            "0s": 5,
+            "Econ": "4.66",
+            "W": "0",
+            "R": "14",
+            "M": "0",
+            "O": "3",
+            "bowler": "Ravichandran Ashwin",
+            "pid": "26421"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 2,
+            "4s": 2,
+            "0s": 6,
+            "Econ": "9.54",
+            "W": "0",
+            "R": "35",
+            "M": "0",
+            "O": "3.4",
+            "bowler": "Tom Curran",
+            "pid": "550235"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 3,
+            "0s": 0,
+            "Econ": "15.00",
+            "W": "0",
+            "R": "15",
+            "M": "0",
+            "O": "1",
+            "bowler": "Marcus Stoinis",
+            "pid": "325012"
+          }
+        ],
+        "title": "Bowling To Rajasthan Royals INNINGS (target: 148 runs from 20 overs)"
+      }
+    ],
+    "batting": [
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "David Miller",
+              "pid": "321777"
+            },
+            "dismissal": "catch",
+            "SR": 40,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 5,
+            "R": 2,
+            "dismissal-info": "c Miller b Unadkat",
+            "batsman": "Prithvi Shaw",
+            "pid": "1070168"
+          },
+          {
+            "dismissal-by": {
+              "name": "Sanju Samson",
+              "pid": "425943"
+            },
+            "dismissal": "catch",
+            "SR": 81,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 11,
+            "R": 9,
+            "dismissal-info": "c  Samson b Unadkat",
+            "batsman": "Shikhar Dhawan",
+            "pid": "28235"
+          },
+          {
+            "dismissal-by": {
+              "name": "Jaydev Unadkat",
+              "pid": "390484"
+            },
+            "dismissal": "catch & bowled",
+            "SR": 100,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 8,
+            "R": 8,
+            "dismissal-info": "c & b Unadkat",
+            "batsman": "Ajinkya Rahane",
+            "pid": "277916"
+          },
+          {
+            "dismissal-by": [
+              {
+                "name": "Riyan Parag",
+                "pid": "1079434"
+              }
+            ],
+            "dismissal": "runout",
+            "SR": 159,
+            "6s": 0,
+            "4s": 9,
+            "M": 0,
+            "B": 32,
+            "R": 51,
+            "dismissal-info": "run out (Parag)",
+            "batsman": "Rishabh Pant\u00a0(c) ",
+            "pid": "931581"
+          },
+          {
+            "dismissal-by": {
+              "name": "Jos Buttler",
+              "pid": "308967"
+            },
+            "dismissal": "catch",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 5,
+            "R": 0,
+            "dismissal-info": "c Buttler b Mustafizur Rahman",
+            "batsman": "Marcus Stoinis",
+            "pid": "325012"
+          },
+          {
+            "dismissal-by": {
+              "name": "Rahul Tewatia",
+              "pid": "423838"
+            },
+            "dismissal": "catch",
+            "SR": 83,
+            "6s": 0,
+            "4s": 3,
+            "M": 0,
+            "B": 24,
+            "R": 20,
+            "dismissal-info": "c Tewatia b Morris",
+            "batsman": "Lalit Yadav",
+            "pid": "930189"
+          },
+          {
+            "dismissal-by": {
+              "name": "Mustafizur Rahman",
+              "pid": "330902"
+            },
+            "dismissal": "bowled",
+            "SR": 131,
+            "6s": 0,
+            "4s": 2,
+            "M": 0,
+            "B": 16,
+            "R": 21,
+            "dismissal-info": "b Mustafizur Rahman",
+            "batsman": "Tom Curran",
+            "pid": "550235"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 136,
+            "6s": 0,
+            "4s": 2,
+            "M": 0,
+            "B": 11,
+            "R": 15,
+            "dismissal-info": "not out",
+            "batsman": "Chris Woakes",
+            "pid": "247235"
+          },
+          {
+            "dismissal-by": [
+              {
+                "name": "David Miller",
+                "pid": "321777"
+              },
+              {
+                "name": "Sanju Samson",
+                "pid": "425943"
+              }
+            ],
+            "dismissal": "runout",
+            "SR": 175,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 4,
+            "R": 7,
+            "dismissal-info": "run out (Miller/ Samson)",
+            "batsman": "Ravichandran Ashwin",
+            "pid": "26421"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 225,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 4,
+            "R": 9,
+            "dismissal-info": "not out",
+            "batsman": "Kagiso Rabada",
+            "pid": "550215"
+          }
+        ],
+        "title": "Delhi Capitals INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Rishabh Pant",
+              "pid": "931581"
+            },
+            "dismissal": "catch",
+            "SR": 28,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 7,
+            "R": 2,
+            "dismissal-info": "c  Pant b Woakes",
+            "batsman": "Jos Buttler",
+            "pid": "308967"
+          },
+          {
+            "dismissal-by": {
+              "name": "Kagiso Rabada",
+              "pid": "550215"
+            },
+            "dismissal": "catch",
+            "SR": 81,
+            "6s": 0,
+            "4s": 2,
+            "M": 0,
+            "B": 11,
+            "R": 9,
+            "dismissal-info": "c Rabada b Woakes",
+            "batsman": "Manan Vohra",
+            "pid": "532856"
+          },
+          {
+            "dismissal-by": {
+              "name": "Shikhar Dhawan",
+              "pid": "28235"
+            },
+            "dismissal": "catch",
+            "SR": 133,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 3,
+            "R": 4,
+            "dismissal-info": "c Dhawan b Rabada",
+            "batsman": "Sanju Samson\u00a0(c) ",
+            "pid": "425943"
+          },
+          {
+            "dismissal-by": {
+              "name": "Shikhar Dhawan",
+              "pid": "28235"
+            },
+            "dismissal": "catch",
+            "SR": 28,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 7,
+            "R": 2,
+            "dismissal-info": "c Dhawan b Avesh Khan",
+            "batsman": "Shivam Dube",
+            "pid": "714451"
+          },
+          {
+            "dismissal-by": {
+              "name": "Lalit Yadav",
+              "pid": "930189"
+            },
+            "dismissal": "catch",
+            "SR": 144,
+            "6s": 2,
+            "4s": 7,
+            "M": 0,
+            "B": 43,
+            "R": 62,
+            "dismissal-info": "c Lalit Yadav b Avesh Khan",
+            "batsman": "David Miller",
+            "pid": "321777"
+          },
+          {
+            "dismissal-by": {
+              "name": "Shikhar Dhawan",
+              "pid": "28235"
+            },
+            "dismissal": "catch",
+            "SR": 40,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 5,
+            "R": 2,
+            "dismissal-info": "c Dhawan b Avesh Khan",
+            "batsman": "Riyan Parag",
+            "pid": "1079434"
+          },
+          {
+            "dismissal-by": {
+              "name": "Lalit Yadav",
+              "pid": "930189"
+            },
+            "dismissal": "catch",
+            "SR": 111,
+            "6s": 0,
+            "4s": 2,
+            "M": 0,
+            "B": 17,
+            "R": 19,
+            "dismissal-info": "c Lalit Yadav b Rabada",
+            "batsman": "Rahul Tewatia",
+            "pid": "423838"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 200,
+            "6s": 4,
+            "4s": 0,
+            "M": 0,
+            "B": 18,
+            "R": 36,
+            "dismissal-info": "not out",
+            "batsman": "Chris Morris",
+            "pid": "439952"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 157,
+            "6s": 1,
+            "4s": 0,
+            "M": 0,
+            "B": 7,
+            "R": 11,
+            "dismissal-info": "not out",
+            "batsman": "Jaydev Unadkat",
+            "pid": "390484"
+          }
+        ],
+        "title": "Rajasthan Royals INNINGS (target: 148 runs from 20 overs)"
+      }
+    ],
+    "team": [
+      {
+        "players": [
+          {
+            "name": "Jos Buttler",
+            "pid": "308967"
+          },
+          {
+            "name": "Manan Vohra",
+            "pid": "532856"
+          },
+          {
+            "name": "Sanju Samson",
+            "pid": "425943"
+          },
+          {
+            "name": "Shivam Dube",
+            "pid": "714451"
+          },
+          {
+            "name": "David Miller",
+            "pid": "321777"
+          },
+          {
+            "name": "Riyan Parag",
+            "pid": "1079434"
+          },
+          {
+            "name": "Rahul Tewatia",
+            "pid": "423838"
+          },
+          {
+            "name": "Chris Morris",
+            "pid": "439952"
+          },
+          {
+            "name": "Jaydev Unadkat",
+            "pid": "390484"
+          },
+          {
+            "name": "Chetan Sakariya",
+            "pid": "1131754"
+          },
+          {
+            "name": "Mustafizur Rahman",
+            "pid": "330902"
+          }
+        ],
+        "name": "Rajasthan Royals"
+      },
+      {
+        "players": [
+          {
+            "name": "Prithvi Shaw",
+            "pid": "1070168"
+          },
+          {
+            "name": "Shikhar Dhawan",
+            "pid": "28235"
+          },
+          {
+            "name": "Ajinkya Rahane",
+            "pid": "277916"
+          },
+          {
+            "name": "Rishabh Pant",
+            "pid": "931581"
+          },
+          {
+            "name": "Marcus Stoinis",
+            "pid": "325012"
+          },
+          {
+            "name": "Lalit Yadav",
+            "pid": "930189"
+          },
+          {
+            "name": "Tom Curran",
+            "pid": "550235"
+          },
+          {
+            "name": "Chris Woakes",
+            "pid": "247235"
+          },
+          {
+            "name": "Ravichandran Ashwin",
+            "pid": "26421"
+          },
+          {
+            "name": "Kagiso Rabada",
+            "pid": "550215"
+          },
+          {
+            "name": "Avesh Khan",
+            "pid": "694211"
+          }
+        ],
+        "name": "Delhi Capitals"
+      }
+    ],
+    "man-of-the-match": {
+      "name": "Jaydev Unadkat",
+      "pid": "390484"
+    },
+    "toss_winner_team": "Rajasthan Royals",
+    "winner_team": "Rajasthan Royals",
+    "matchStarted": true
+  },
+  "cache3": true,
+  "creditsLeft": 192,
+  "v": "1",
+  "ttl": 1,
+  "provider": {
+    "source": "Various",
+    "url": "https://cricapi.com/",
+    "pubDate": "2021-04-18T14:04:19.990Z"
+  }
+}

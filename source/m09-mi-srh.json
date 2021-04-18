@@ -1,0 +1,681 @@
+{
+  "dateTimeGMT": "2021-04-17T14:00:00.000Z",
+  "data": {
+    "fielding": [
+      {
+        "title": "Fielding for Mumbai Indians INNINGS (20 overs maximum)",
+        "scores": [
+          {
+            "name": "Jonny Bairstow",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "297433"
+          },
+          {
+            "name": "Vijay Shankar",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "477021"
+          },
+          {
+            "name": "J Suchith",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": 527663
+          },
+          {
+            "name": "Virat Singh",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 2,
+            "pid": "720465"
+          }
+        ]
+      },
+      {
+        "title": "Fielding for Sunrisers Hyderabad INNINGS (target: 151 runs from 20 overs)",
+        "scores": [
+          {
+            "name": "Kieron Pollard",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "230559"
+          },
+          {
+            "name": "Trent Boult",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 2,
+            "lbw": 1,
+            "catch": 0,
+            "pid": "277912"
+          },
+          {
+            "name": "Suryakumar Yadav",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 2,
+            "pid": "446507"
+          },
+          {
+            "name": "Adam Milne",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "450860"
+          },
+          {
+            "name": "HH Pandya",
+            "runout": 2,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 0,
+            "pid": 625371
+          }
+        ]
+      }
+    ],
+    "bowling": [
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 3,
+            "4s": 3,
+            "0s": 6,
+            "Econ": "11.25",
+            "W": "0",
+            "R": "45",
+            "M": "0",
+            "O": "4",
+            "bowler": "Bhuvneshwar Kumar",
+            "pid": "326016"
+          },
+          {
+            "NB": "1",
+            "WD": "1",
+            "6s": 0,
+            "4s": 3,
+            "0s": 12,
+            "Econ": "6.00",
+            "W": "1",
+            "R": "24",
+            "M": "0",
+            "O": "4",
+            "bowler": "Khaleel Ahmed",
+            "pid": "942645"
+          },
+          {
+            "NB": "0",
+            "WD": "2",
+            "6s": 2,
+            "4s": 1,
+            "0s": 10,
+            "Econ": "7.25",
+            "W": "2",
+            "R": "29",
+            "M": "0",
+            "O": "4",
+            "bowler": "Mujeeb Ur Rahman",
+            "pid": "974109"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 0,
+            "0s": 2,
+            "Econ": "5.00",
+            "W": "0",
+            "R": "5",
+            "M": "0",
+            "O": "1",
+            "bowler": "Abhishek Sharma",
+            "pid": "1070183"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 1,
+            "0s": 8,
+            "Econ": "6.33",
+            "W": "2",
+            "R": "19",
+            "M": "0",
+            "O": "3",
+            "bowler": "Vijay Shankar",
+            "pid": "477021"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 0,
+            "4s": 2,
+            "0s": 11,
+            "Econ": "5.50",
+            "W": "0",
+            "R": "22",
+            "M": "0",
+            "O": "4",
+            "bowler": "Rashid Khan",
+            "pid": "793463"
+          }
+        ],
+        "title": "Bowling To Mumbai Indians INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 4,
+            "0s": 12,
+            "Econ": "7.63",
+            "W": "3",
+            "R": "28",
+            "M": "0",
+            "O": "3.4",
+            "bowler": "Trent Boult",
+            "pid": "277912"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 0,
+            "0s": 12,
+            "Econ": "3.50",
+            "W": "1",
+            "R": "14",
+            "M": "0",
+            "O": "4",
+            "bowler": "Jasprit Bumrah",
+            "pid": "625383"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 3,
+            "4s": 1,
+            "0s": 4,
+            "Econ": "11.00",
+            "W": "0",
+            "R": "33",
+            "M": "0",
+            "O": "3",
+            "bowler": "Adam Milne",
+            "pid": "450860"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 3,
+            "4s": 1,
+            "0s": 8,
+            "Econ": "10.00",
+            "W": "1",
+            "R": "30",
+            "M": "0",
+            "O": "3",
+            "bowler": "Krunal Pandya",
+            "pid": "471342"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 1,
+            "4s": 0,
+            "0s": 13,
+            "Econ": "4.75",
+            "W": "3",
+            "R": "19",
+            "M": "0",
+            "O": "4",
+            "bowler": "Rahul Chahar",
+            "pid": "1064812"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 1,
+            "0s": 5,
+            "Econ": "5.00",
+            "W": "0",
+            "R": "10",
+            "M": "0",
+            "O": "2",
+            "bowler": "Kieron Pollard",
+            "pid": "230559"
+          }
+        ],
+        "title": "Bowling To Sunrisers Hyderabad INNINGS (target: 151 runs from 20 overs)"
+      }
+    ],
+    "batting": [
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "pid": 527663,
+              "name": "J Suchith"
+            },
+            "dismissal": "catch",
+            "SR": 102,
+            "6s": 0,
+            "4s": 5,
+            "M": 0,
+            "B": 39,
+            "R": 40,
+            "dismissal-info": "c sub (J Suchith) b Mujeeb Ur Rahman",
+            "batsman": "Quinton de Kock\u00a0 ",
+            "pid": "379143"
+          },
+          {
+            "dismissal-by": {
+              "name": "Virat Singh",
+              "pid": "720465"
+            },
+            "dismissal": "catch",
+            "SR": 128,
+            "6s": 2,
+            "4s": 2,
+            "M": 0,
+            "B": 25,
+            "R": 32,
+            "dismissal-info": "c Virat Singh b Shankar",
+            "batsman": "Rohit Sharma\u00a0(c)",
+            "pid": "34102"
+          },
+          {
+            "dismissal-by": {
+              "name": "Vijay Shankar",
+              "pid": "477021"
+            },
+            "dismissal": "catch & bowled",
+            "SR": 166,
+            "6s": 1,
+            "4s": 1,
+            "M": 0,
+            "B": 6,
+            "R": 10,
+            "dismissal-info": "c & b Shankar",
+            "batsman": "Suryakumar Yadav",
+            "pid": "446507"
+          },
+          {
+            "dismissal-by": {
+              "name": "Jonny Bairstow",
+              "pid": "297433"
+            },
+            "dismissal": "catch",
+            "SR": 57,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 21,
+            "R": 12,
+            "dismissal-info": "c  Bairstow b Mujeeb Ur Rahman",
+            "batsman": "Ishan Kishan",
+            "pid": "720471"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 159,
+            "6s": 3,
+            "4s": 1,
+            "M": 0,
+            "B": 22,
+            "R": 35,
+            "dismissal-info": "not out",
+            "batsman": "Kieron Pollard",
+            "pid": "230559"
+          },
+          {
+            "dismissal-by": {
+              "name": "Virat Singh",
+              "pid": "720465"
+            },
+            "dismissal": "catch",
+            "SR": 140,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 5,
+            "R": 7,
+            "dismissal-info": "c Virat Singh b Ahmed",
+            "batsman": "Hardik Pandya",
+            "pid": "625371"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 100,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 3,
+            "R": 3,
+            "dismissal-info": "not out",
+            "batsman": "Krunal Pandya",
+            "pid": "471342"
+          }
+        ],
+        "title": "Mumbai Indians INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "dismissal-by": [
+              {
+                "pid": 625371,
+                "name": "HH Pandya"
+              }
+            ],
+            "dismissal": "runout",
+            "SR": 105,
+            "6s": 2,
+            "4s": 2,
+            "M": 0,
+            "B": 34,
+            "R": 36,
+            "dismissal-info": "run out (HH Pandya)",
+            "batsman": "David Warner\u00a0(c)",
+            "pid": "219889"
+          },
+          {
+            "SR": 195,
+            "6s": 4,
+            "4s": 3,
+            "M": 0,
+            "B": 22,
+            "R": 43,
+            "dismissal-info": "hit wicket b KH Pandya",
+            "batsman": "Jonny Bairstow\u00a0 ",
+            "pid": "297433"
+          },
+          {
+            "dismissal-by": {
+              "name": "Kieron Pollard",
+              "pid": "230559"
+            },
+            "dismissal": "catch",
+            "SR": 28,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 7,
+            "R": 2,
+            "dismissal-info": "c Pollard b Chahar",
+            "batsman": "Manish Pandey",
+            "pid": "290630"
+          },
+          {
+            "dismissal-by": {
+              "name": "Suryakumar Yadav",
+              "pid": "446507"
+            },
+            "dismissal": "catch",
+            "SR": 91,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 12,
+            "R": 11,
+            "dismissal-info": "c Yadav b Chahar",
+            "batsman": "Virat Singh",
+            "pid": "720465"
+          },
+          {
+            "dismissal-by": {
+              "name": "Suryakumar Yadav",
+              "pid": "446507"
+            },
+            "dismissal": "catch",
+            "SR": 112,
+            "6s": 2,
+            "4s": 0,
+            "M": 0,
+            "B": 25,
+            "R": 28,
+            "dismissal-info": "c Yadav b Bumrah",
+            "batsman": "Vijay Shankar",
+            "pid": "477021"
+          },
+          {
+            "dismissal-by": {
+              "name": "Adam Milne",
+              "pid": "450860"
+            },
+            "dismissal": "catch",
+            "SR": 50,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 4,
+            "R": 2,
+            "dismissal-info": "c Milne b Chahar",
+            "batsman": "Abhishek Sharma",
+            "pid": "1070183"
+          },
+          {
+            "dismissal-by": [
+              {
+                "pid": 625371,
+                "name": "HH Pandya"
+              }
+            ],
+            "dismissal": "runout",
+            "SR": 87,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 8,
+            "R": 7,
+            "dismissal-info": "run out (HH Pandya)",
+            "batsman": "Abdul Samad",
+            "pid": "1175485"
+          },
+          {
+            "dismissal-by": {
+              "name": "Trent Boult",
+              "pid": "277912"
+            },
+            "dismissal": "lbw",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 1,
+            "R": 0,
+            "dismissal-info": "lbw b Boult",
+            "batsman": "Rashid Khan",
+            "pid": "793463"
+          },
+          {
+            "dismissal-by": {
+              "name": "Trent Boult",
+              "pid": "277912"
+            },
+            "dismissal": "bowled",
+            "SR": 50,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 2,
+            "R": 1,
+            "dismissal-info": "b Boult",
+            "batsman": "Bhuvneshwar Kumar",
+            "pid": "326016"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 100,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 1,
+            "R": 1,
+            "dismissal-info": "not out",
+            "batsman": "Mujeeb Ur Rahman",
+            "pid": "974109"
+          },
+          {
+            "dismissal-by": {
+              "name": "Trent Boult",
+              "pid": "277912"
+            },
+            "dismissal": "bowled",
+            "SR": 50,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 2,
+            "R": 1,
+            "dismissal-info": "b Boult",
+            "batsman": "Khaleel Ahmed",
+            "pid": "942645"
+          }
+        ],
+        "title": "Sunrisers Hyderabad INNINGS (target: 151 runs from 20 overs)"
+      }
+    ],
+    "team": [
+      {
+        "players": [
+          {
+            "name": "Quinton de Kock",
+            "pid": "379143"
+          },
+          {
+            "name": "Rohit Sharma",
+            "pid": "34102"
+          },
+          {
+            "name": "Suryakumar Yadav",
+            "pid": "446507"
+          },
+          {
+            "name": "Ishan Kishan",
+            "pid": "720471"
+          },
+          {
+            "name": "Kieron Pollard",
+            "pid": "230559"
+          },
+          {
+            "name": "Hardik Pandya",
+            "pid": "625371"
+          },
+          {
+            "name": "Krunal Pandya",
+            "pid": "471342"
+          },
+          {
+            "name": "Adam Milne",
+            "pid": "450860"
+          },
+          {
+            "name": "Rahul Chahar",
+            "pid": "1064812"
+          },
+          {
+            "name": "Jasprit Bumrah",
+            "pid": "625383"
+          },
+          {
+            "name": "Trent Boult",
+            "pid": "277912"
+          }
+        ],
+        "name": "Mumbai Indians"
+      },
+      {
+        "players": [
+          {
+            "name": "David Warner",
+            "pid": "219889"
+          },
+          {
+            "name": "Jonny Bairstow",
+            "pid": "297433"
+          },
+          {
+            "name": "Manish Pandey",
+            "pid": "290630"
+          },
+          {
+            "name": "Virat Singh",
+            "pid": "720465"
+          },
+          {
+            "name": "Vijay Shankar",
+            "pid": "477021"
+          },
+          {
+            "name": "Abhishek Sharma",
+            "pid": "1070183"
+          },
+          {
+            "name": "Abdul Samad",
+            "pid": "1175485"
+          },
+          {
+            "name": "Rashid Khan",
+            "pid": "793463"
+          },
+          {
+            "name": "Bhuvneshwar Kumar",
+            "pid": "326016"
+          },
+          {
+            "name": "Mujeeb Ur Rahman",
+            "pid": "974109"
+          },
+          {
+            "name": "Khaleel Ahmed",
+            "pid": "942645"
+          }
+        ],
+        "name": "Sunrisers Hyderabad"
+      }
+    ],
+    "man-of-the-match": {
+      "name": "Kieron Pollard",
+      "pid": "230559"
+    },
+    "toss_winner_team": "Mumbai Indians",
+    "winner_team": "Mumbai Indians",
+    "matchStarted": true
+  },
+  "cache3": true,
+  "creditsLeft": 192,
+  "v": "1",
+  "ttl": 1,
+  "provider": {
+    "source": "Various",
+    "url": "https://cricapi.com/",
+    "pubDate": "2021-04-18T14:04:38.011Z"
+  }
+}

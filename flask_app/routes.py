@@ -280,7 +280,7 @@ def view_current_match():
     matches = schedule.get_matches_being_played()
     if matches:
         match_id = str(matches[0].unique_id)
-        if len(matches) == 2 and today() > matches[0] + timedelta(hours=4):
+        if len(matches) == 2 and today() > matches[0].date + timedelta(hours=4):
             match_id = str(matches[1].unique_id)
         return redirect(url_for("view_match_score", match_id=match_id))
     players = MatchPlayer.objects.filter_by(man_of_the_match=True).get()

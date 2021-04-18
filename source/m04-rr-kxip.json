@@ -1,0 +1,670 @@
+{
+  "dateTimeGMT": "2021-04-12T14:00:00.000Z",
+  "data": {
+    "fielding": [
+      {
+        "title": "Fielding for Punjab Kings INNINGS (20 overs maximum)",
+        "scores": [
+          {
+            "name": "Ben Stokes",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "311158"
+          },
+          {
+            "name": "Rahul Tewatia",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "423838"
+          },
+          {
+            "name": "Sanju Samson",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "425943"
+          },
+          {
+            "name": "Chris Morris",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "439952"
+          },
+          {
+            "name": "Riyan Parag",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "1079434"
+          },
+          {
+            "name": "Chetan Sakariya",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "1131754"
+          }
+        ]
+      },
+      {
+        "title": "Fielding for Rajasthan Royals INNINGS (target: 222 runs from 20 overs)",
+        "scores": [
+          {
+            "name": "Rahul Tewatia",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 2,
+            "pid": "423838"
+          },
+          {
+            "name": "Mohammed Shami",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "481896"
+          },
+          {
+            "name": "Deepak Hooda",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 2,
+            "pid": "497121"
+          },
+          {
+            "name": "Jhye Richardson",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 0,
+            "catch": 0,
+            "pid": "774223"
+          },
+          {
+            "name": "Arshdeep Singh",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "1125976"
+          }
+        ]
+      }
+    ],
+    "bowling": [
+      {
+        "scores": [
+          {
+            "NB": "1",
+            "WD": "0",
+            "6s": 0,
+            "4s": 6,
+            "0s": 13,
+            "Econ": "7.75",
+            "W": "3",
+            "R": "31",
+            "M": "0",
+            "O": "4",
+            "bowler": "Chetan Sakariya",
+            "pid": "1131754"
+          },
+          {
+            "NB": "1",
+            "WD": "3",
+            "6s": 1,
+            "4s": 4,
+            "0s": 4,
+            "Econ": "11.25",
+            "W": "0",
+            "R": "45",
+            "M": "0",
+            "O": "4",
+            "bowler": "Mustafizur Rahman",
+            "pid": "330902"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 3,
+            "4s": 2,
+            "0s": 8,
+            "Econ": "10.25",
+            "W": "2",
+            "R": "41",
+            "M": "0",
+            "O": "4",
+            "bowler": "Chris Morris",
+            "pid": "439952"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 3,
+            "4s": 3,
+            "0s": 3,
+            "Econ": "13.33",
+            "W": "0",
+            "R": "40",
+            "M": "0",
+            "O": "3",
+            "bowler": "Shreyas Gopal",
+            "pid": "344580"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 1,
+            "0s": 2,
+            "Econ": "12.00",
+            "W": "0",
+            "R": "12",
+            "M": "0",
+            "O": "1",
+            "bowler": "Ben Stokes",
+            "pid": "311158"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 2,
+            "4s": 1,
+            "0s": 2,
+            "Econ": "12.50",
+            "W": "0",
+            "R": "25",
+            "M": "0",
+            "O": "2",
+            "bowler": "Rahul Tewatia",
+            "pid": "423838"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 1,
+            "0s": 2,
+            "Econ": "7.00",
+            "W": "1",
+            "R": "7",
+            "M": "0",
+            "O": "1",
+            "bowler": "Riyan Parag",
+            "pid": "1079434"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 3,
+            "4s": 0,
+            "0s": 1,
+            "Econ": "20.00",
+            "W": "0",
+            "R": "20",
+            "M": "0",
+            "O": "1",
+            "bowler": "Shivam Dube",
+            "pid": "714451"
+          }
+        ],
+        "title": "Bowling To Punjab Kings INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "2",
+            "6s": 1,
+            "4s": 5,
+            "0s": 13,
+            "Econ": "8.25",
+            "W": "2",
+            "R": "33",
+            "M": "0",
+            "O": "4",
+            "bowler": "Mohammed Shami",
+            "pid": "481896"
+          },
+          {
+            "NB": "0",
+            "WD": "2",
+            "6s": 3,
+            "4s": 5,
+            "0s": 5,
+            "Econ": "13.75",
+            "W": "1",
+            "R": "55",
+            "M": "0",
+            "O": "4",
+            "bowler": "Jhye Richardson",
+            "pid": "774223"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 5,
+            "0s": 9,
+            "Econ": "8.75",
+            "W": "3",
+            "R": "35",
+            "M": "0",
+            "O": "4",
+            "bowler": "Arshdeep Singh",
+            "pid": "1125976"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 3,
+            "4s": 5,
+            "0s": 6,
+            "Econ": "12.25",
+            "W": "1",
+            "R": "49",
+            "M": "0",
+            "O": "4",
+            "bowler": "Riley Meredith",
+            "pid": "961713"
+          },
+          {
+            "NB": "1",
+            "WD": "2",
+            "6s": 3,
+            "4s": 2,
+            "0s": 7,
+            "Econ": "10.75",
+            "W": "0",
+            "R": "43",
+            "M": "0",
+            "O": "4",
+            "bowler": "Murugan Ashwin",
+            "pid": "528067"
+          }
+        ],
+        "title": "Bowling To Rajasthan Royals INNINGS (target: 222 runs from 20 overs)"
+      }
+    ],
+    "batting": [
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Rahul Tewatia",
+              "pid": "423838"
+            },
+            "dismissal": "catch",
+            "SR": 182,
+            "6s": 5,
+            "4s": 7,
+            "M": 0,
+            "B": 50,
+            "R": 91,
+            "dismissal-info": "c Tewatia b Sakariya",
+            "batsman": "KL Rahul\u00a0(c) ",
+            "pid": "422108"
+          },
+          {
+            "dismissal-by": {
+              "name": "Sanju Samson",
+              "pid": "425943"
+            },
+            "dismissal": "catch",
+            "SR": 155,
+            "6s": 0,
+            "4s": 2,
+            "M": 0,
+            "B": 9,
+            "R": 14,
+            "dismissal-info": "c  Samson b Sakariya",
+            "batsman": "Mayank Agarwal",
+            "pid": "398438"
+          },
+          {
+            "dismissal-by": {
+              "name": "Ben Stokes",
+              "pid": "311158"
+            },
+            "dismissal": "catch",
+            "SR": 142,
+            "6s": 2,
+            "4s": 4,
+            "M": 0,
+            "B": 28,
+            "R": 40,
+            "dismissal-info": "c Stokes b Parag",
+            "batsman": "Chris Gayle",
+            "pid": "51880"
+          },
+          {
+            "dismissal-by": {
+              "name": "Riyan Parag",
+              "pid": "1079434"
+            },
+            "dismissal": "catch",
+            "SR": 228,
+            "6s": 6,
+            "4s": 4,
+            "M": 0,
+            "B": 28,
+            "R": 64,
+            "dismissal-info": "c Parag b Morris",
+            "batsman": "Deepak Hooda",
+            "pid": "497121"
+          },
+          {
+            "dismissal-by": {
+              "name": "Chetan Sakariya",
+              "pid": "1131754"
+            },
+            "dismissal": "catch",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 1,
+            "R": 0,
+            "dismissal-info": "c Sakariya b Morris",
+            "batsman": "Nicholas Pooran",
+            "pid": "604302"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 150,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 4,
+            "R": 6,
+            "dismissal-info": "not out",
+            "batsman": "Shahrukh Khan",
+            "pid": "719719"
+          },
+          {
+            "dismissal-by": {
+              "name": "Chris Morris",
+              "pid": "439952"
+            },
+            "dismissal": "catch",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 2,
+            "R": 0,
+            "dismissal-info": "c Morris b Sakariya",
+            "batsman": "Jhye Richardson",
+            "pid": "774223"
+          }
+        ],
+        "title": "Punjab Kings INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Mohammed Shami",
+              "pid": "481896"
+            },
+            "dismissal": "catch & bowled",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 3,
+            "R": 0,
+            "dismissal-info": "c & b Mohammed Shami",
+            "batsman": "Ben Stokes",
+            "pid": "311158"
+          },
+          {
+            "dismissal-by": {
+              "name": "Arshdeep Singh",
+              "pid": "1125976"
+            },
+            "dismissal": "catch & bowled",
+            "SR": 150,
+            "6s": 1,
+            "4s": 1,
+            "M": 0,
+            "B": 8,
+            "R": 12,
+            "dismissal-info": "c & b Arshdeep Singh",
+            "batsman": "Manan Vohra",
+            "pid": "532856"
+          },
+          {
+            "dismissal-by": {
+              "name": "Deepak Hooda",
+              "pid": "497121"
+            },
+            "dismissal": "catch",
+            "SR": 188,
+            "6s": 7,
+            "4s": 12,
+            "M": 0,
+            "B": 63,
+            "R": 119,
+            "dismissal-info": "c Hooda b Arshdeep Singh",
+            "batsman": "Sanju Samson\u00a0(c) ",
+            "pid": "425943"
+          },
+          {
+            "dismissal-by": {
+              "name": "Jhye Richardson",
+              "pid": "774223"
+            },
+            "dismissal": "bowled",
+            "SR": 192,
+            "6s": 0,
+            "4s": 5,
+            "M": 0,
+            "B": 13,
+            "R": 25,
+            "dismissal-info": "b Richardson",
+            "batsman": "Jos Buttler",
+            "pid": "308967"
+          },
+          {
+            "dismissal-by": {
+              "name": "Deepak Hooda",
+              "pid": "497121"
+            },
+            "dismissal": "catch",
+            "SR": 153,
+            "6s": 0,
+            "4s": 3,
+            "M": 0,
+            "B": 15,
+            "R": 23,
+            "dismissal-info": "c Hooda b Arshdeep Singh",
+            "batsman": "Shivam Dube",
+            "pid": "714451"
+          },
+          {
+            "dismissal-by": {
+              "name": "Rahul Tewatia",
+              "pid": "423838"
+            },
+            "dismissal": "catch",
+            "SR": 227,
+            "6s": 3,
+            "4s": 1,
+            "M": 0,
+            "B": 11,
+            "R": 25,
+            "dismissal-info": "c  Rahul b Mohammed Shami",
+            "batsman": "Riyan Parag",
+            "pid": "1079434"
+          },
+          {
+            "dismissal-by": {
+              "name": "Rahul Tewatia",
+              "pid": "423838"
+            },
+            "dismissal": "catch",
+            "SR": 50,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 4,
+            "R": 2,
+            "dismissal-info": "c  Rahul b Meredith",
+            "batsman": "Rahul Tewatia",
+            "pid": "423838"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 50,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 4,
+            "R": 2,
+            "dismissal-info": "not out",
+            "batsman": "Chris Morris",
+            "pid": "439952"
+          }
+        ],
+        "title": "Rajasthan Royals INNINGS (target: 222 runs from 20 overs)"
+      }
+    ],
+    "team": [
+      {
+        "players": [
+          {
+            "name": "Ben Stokes",
+            "pid": "311158"
+          },
+          {
+            "name": "Manan Vohra",
+            "pid": "532856"
+          },
+          {
+            "name": "Sanju Samson",
+            "pid": "425943"
+          },
+          {
+            "name": "Jos Buttler",
+            "pid": "308967"
+          },
+          {
+            "name": "Shivam Dube",
+            "pid": "714451"
+          },
+          {
+            "name": "Riyan Parag",
+            "pid": "1079434"
+          },
+          {
+            "name": "Rahul Tewatia",
+            "pid": "423838"
+          },
+          {
+            "name": "Chris Morris",
+            "pid": "439952"
+          },
+          {
+            "name": "Shreyas Gopal",
+            "pid": "344580"
+          },
+          {
+            "name": "Chetan Sakariya",
+            "pid": "1131754"
+          },
+          {
+            "name": "Mustafizur Rahman",
+            "pid": "330902"
+          }
+        ],
+        "name": "Rajasthan Royals"
+      },
+      {
+        "players": [
+          {
+            "name": "KL Rahul",
+            "pid": "422108"
+          },
+          {
+            "name": "Mayank Agarwal",
+            "pid": "398438"
+          },
+          {
+            "name": "Chris Gayle",
+            "pid": "51880"
+          },
+          {
+            "name": "Deepak Hooda",
+            "pid": "497121"
+          },
+          {
+            "name": "Nicholas Pooran",
+            "pid": "604302"
+          },
+          {
+            "name": "Shahrukh Khan",
+            "pid": "719719"
+          },
+          {
+            "name": "Jhye Richardson",
+            "pid": "774223"
+          },
+          {
+            "name": "Murugan Ashwin",
+            "pid": "528067"
+          },
+          {
+            "name": "Mohammed Shami",
+            "pid": "481896"
+          },
+          {
+            "name": "Riley Meredith",
+            "pid": "961713"
+          },
+          {
+            "name": "Arshdeep Singh",
+            "pid": "1125976"
+          }
+        ],
+        "name": "Punjab Kings"
+      }
+    ],
+    "man-of-the-match": {
+      "name": "Sanju Samson",
+      "pid": "425943"
+    },
+    "toss_winner_team": "Rajasthan Royals",
+    "winner_team": "Punjab Kings",
+    "matchStarted": true
+  },
+  "cache3": true,
+  "creditsLeft": 192,
+  "v": "1",
+  "ttl": 2,
+  "provider": {
+    "source": "Various",
+    "url": "https://cricapi.com/",
+    "pubDate": "2021-04-13T09:28:03.647Z"
+  }
+}

@@ -1,0 +1,755 @@
+{
+  "dateTimeGMT": "2021-04-13T14:00:00.000Z",
+  "data": {
+    "fielding": [
+      {
+        "title": "Fielding for Mumbai Indians INNINGS (20 overs maximum)",
+        "scores": [
+          {
+            "name": "Dinesh Karthik",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "30045"
+          },
+          {
+            "name": "Shakib Al Hasan",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "56143"
+          },
+          {
+            "name": "Andre Russell",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "276298"
+          },
+          {
+            "name": "Rahul Tripathi",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "446763"
+          },
+          {
+            "name": "Pat Cummins",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "489889"
+          },
+          {
+            "name": "Prasidh Krishna",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 2,
+            "pid": "917159"
+          },
+          {
+            "name": "Shubman Gill",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 2,
+            "pid": "1070173"
+          }
+        ]
+      },
+      {
+        "title": "Fielding for Kolkata Knight Riders INNINGS (target: 153 runs from 20 overs)",
+        "scores": [
+          {
+            "name": "Kieron Pollard",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "230559"
+          },
+          {
+            "name": "Trent Boult",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 2,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "277912"
+          },
+          {
+            "name": "Quinton de Kock",
+            "runout": 0,
+            "stumped": 1,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "379143"
+          },
+          {
+            "name": "Suryakumar Yadav",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "446507"
+          },
+          {
+            "name": "Marco Jansen",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "696401"
+          }
+        ]
+      }
+    ],
+    "bowling": [
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 0,
+            "4s": 3,
+            "0s": 6,
+            "Econ": "8.50",
+            "W": "0",
+            "R": "17",
+            "M": "0",
+            "O": "2",
+            "bowler": "Harbhajan Singh",
+            "pid": "29264"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 0,
+            "4s": 3,
+            "0s": 9,
+            "Econ": "6.75",
+            "W": "1",
+            "R": "27",
+            "M": "0",
+            "O": "4",
+            "bowler": "Varun Chakravarthy",
+            "pid": "1108375"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 1,
+            "0s": 4,
+            "Econ": "5.75",
+            "W": "1",
+            "R": "23",
+            "M": "0",
+            "O": "4",
+            "bowler": "Shakib Al Hasan",
+            "pid": "56143"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 2,
+            "0s": 12,
+            "Econ": "6.00",
+            "W": "2",
+            "R": "24",
+            "M": "0",
+            "O": "4",
+            "bowler": "Pat Cummins",
+            "pid": "489889"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 2,
+            "4s": 5,
+            "0s": 8,
+            "Econ": "10.50",
+            "W": "1",
+            "R": "42",
+            "M": "0",
+            "O": "4",
+            "bowler": "Prasidh Krishna",
+            "pid": "917159"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 0,
+            "4s": 2,
+            "0s": 6,
+            "Econ": "7.50",
+            "W": "5",
+            "R": "15",
+            "M": "0",
+            "O": "2",
+            "bowler": "Andre Russell",
+            "pid": "276298"
+          }
+        ],
+        "title": "Bowling To Mumbai Indians INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 3,
+            "0s": 12,
+            "Econ": "6.75",
+            "W": "2",
+            "R": "27",
+            "M": "0",
+            "O": "4",
+            "bowler": "Trent Boult",
+            "pid": "277912"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 3,
+            "0s": 5,
+            "Econ": "8.50",
+            "W": "0",
+            "R": "17",
+            "M": "0",
+            "O": "2",
+            "bowler": "Marco Jansen",
+            "pid": "696401"
+          },
+          {
+            "NB": "1",
+            "WD": "0",
+            "6s": 0,
+            "4s": 4,
+            "0s": 9,
+            "Econ": "7.00",
+            "W": "0",
+            "R": "28",
+            "M": "0",
+            "O": "4",
+            "bowler": "Jasprit Bumrah",
+            "pid": "625383"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 0,
+            "4s": 0,
+            "0s": 13,
+            "Econ": "3.25",
+            "W": "1",
+            "R": "13",
+            "M": "0",
+            "O": "4",
+            "bowler": "Krunal Pandya",
+            "pid": "471342"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 1,
+            "0s": 2,
+            "Econ": "12.00",
+            "W": "0",
+            "R": "12",
+            "M": "0",
+            "O": "1",
+            "bowler": "Kieron Pollard",
+            "pid": "230559"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 2,
+            "0s": 11,
+            "Econ": "6.75",
+            "W": "4",
+            "R": "27",
+            "M": "0",
+            "O": "4",
+            "bowler": "Rahul Chahar",
+            "pid": "1064812"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 1,
+            "0s": 0,
+            "Econ": "9.00",
+            "W": "0",
+            "R": "9",
+            "M": "0",
+            "O": "1",
+            "bowler": "Rohit Sharma",
+            "pid": "34102"
+          }
+        ],
+        "title": "Bowling To Kolkata Knight Riders INNINGS (target: 153 runs from 20 overs)"
+      }
+    ],
+    "batting": [
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Pat Cummins",
+              "pid": "489889"
+            },
+            "dismissal": "bowled",
+            "SR": 134,
+            "6s": 1,
+            "4s": 3,
+            "M": 0,
+            "B": 32,
+            "R": 43,
+            "dismissal-info": "b Cummins",
+            "batsman": "Rohit Sharma\u00a0(c)",
+            "pid": "34102"
+          },
+          {
+            "dismissal-by": {
+              "name": "Rahul Tripathi",
+              "pid": "446763"
+            },
+            "dismissal": "catch",
+            "SR": 33,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 6,
+            "R": 2,
+            "dismissal-info": "c Tripathi b Varun",
+            "batsman": "Quinton de Kock\u00a0 ",
+            "pid": "379143"
+          },
+          {
+            "dismissal-by": {
+              "name": "Shubman Gill",
+              "pid": "1070173"
+            },
+            "dismissal": "catch",
+            "SR": 155,
+            "6s": 2,
+            "4s": 7,
+            "M": 0,
+            "B": 36,
+            "R": 56,
+            "dismissal-info": "c Shubman Gill b Shakib Al Hasan",
+            "batsman": "Suryakumar Yadav",
+            "pid": "446507"
+          },
+          {
+            "dismissal-by": {
+              "name": "Prasidh Krishna",
+              "pid": "917159"
+            },
+            "dismissal": "catch",
+            "SR": 33,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 3,
+            "R": 1,
+            "dismissal-info": "c Prasidh Krishna b Cummins",
+            "batsman": "Ishan Kishan",
+            "pid": "720471"
+          },
+          {
+            "dismissal-by": {
+              "name": "Andre Russell",
+              "pid": "276298"
+            },
+            "dismissal": "catch",
+            "SR": 88,
+            "6s": 0,
+            "4s": 2,
+            "M": 0,
+            "B": 17,
+            "R": 15,
+            "dismissal-info": "c Russell b Prasidh Krishna",
+            "batsman": "Hardik Pandya",
+            "pid": "625371"
+          },
+          {
+            "dismissal-by": {
+              "name": "Dinesh Karthik",
+              "pid": "30045"
+            },
+            "dismissal": "catch",
+            "SR": 62,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 8,
+            "R": 5,
+            "dismissal-info": "c  Karthik b Russell",
+            "batsman": "Kieron Pollard",
+            "pid": "230559"
+          },
+          {
+            "dismissal-by": {
+              "name": "Prasidh Krishna",
+              "pid": "917159"
+            },
+            "dismissal": "catch",
+            "SR": 166,
+            "6s": 0,
+            "4s": 3,
+            "M": 0,
+            "B": 9,
+            "R": 15,
+            "dismissal-info": "c Prasidh Krishna b Russell",
+            "batsman": "Krunal Pandya",
+            "pid": "471342"
+          },
+          {
+            "dismissal-by": {
+              "name": "Pat Cummins",
+              "pid": "489889"
+            },
+            "dismissal": "catch",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 1,
+            "R": 0,
+            "dismissal-info": "c Cummins b Russell",
+            "batsman": "Marco Jansen",
+            "pid": "696401"
+          },
+          {
+            "dismissal-by": {
+              "name": "Shubman Gill",
+              "pid": "1070173"
+            },
+            "dismissal": "catch",
+            "SR": 114,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 7,
+            "R": 8,
+            "dismissal-info": "c Shubman Gill b Russell",
+            "batsman": "Rahul Chahar",
+            "pid": "1064812"
+          },
+          {
+            "dismissal-by": {
+              "name": "Shakib Al Hasan",
+              "pid": "56143"
+            },
+            "dismissal": "catch",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 1,
+            "R": 0,
+            "dismissal-info": "c Shakib Al Hasan b Russell",
+            "batsman": "Jasprit Bumrah",
+            "pid": "625383"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 0,
+            "R": 0,
+            "dismissal-info": "not out",
+            "batsman": "Trent Boult",
+            "pid": "277912"
+          }
+        ],
+        "title": "Mumbai Indians INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Quinton de Kock",
+              "pid": "379143"
+            },
+            "dismissal": "stumped",
+            "SR": 121,
+            "6s": 2,
+            "4s": 6,
+            "M": 0,
+            "B": 47,
+            "R": 57,
+            "dismissal-info": "st  de Kock b Chahar",
+            "batsman": "Nitish Rana",
+            "pid": "604527"
+          },
+          {
+            "dismissal-by": {
+              "name": "Kieron Pollard",
+              "pid": "230559"
+            },
+            "dismissal": "catch",
+            "SR": 137,
+            "6s": 1,
+            "4s": 5,
+            "M": 0,
+            "B": 24,
+            "R": 33,
+            "dismissal-info": "c Pollard b Chahar",
+            "batsman": "Shubman Gill",
+            "pid": "1070173"
+          },
+          {
+            "dismissal-by": {
+              "name": "Quinton de Kock",
+              "pid": "379143"
+            },
+            "dismissal": "catch",
+            "SR": 100,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 5,
+            "R": 5,
+            "dismissal-info": "c  de Kock b Chahar",
+            "batsman": "Rahul Tripathi",
+            "pid": "446763"
+          },
+          {
+            "dismissal-by": {
+              "name": "Marco Jansen",
+              "pid": "696401"
+            },
+            "dismissal": "catch",
+            "SR": 100,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 7,
+            "R": 7,
+            "dismissal-info": "c Jansen b Chahar",
+            "batsman": "Eoin Morgan\u00a0(c)",
+            "pid": "24598"
+          },
+          {
+            "dismissal-by": {
+              "name": "Suryakumar Yadav",
+              "pid": "446507"
+            },
+            "dismissal": "catch",
+            "SR": 100,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 9,
+            "R": 9,
+            "dismissal-info": "c Yadav b KH Pandya",
+            "batsman": "Shakib Al Hasan",
+            "pid": "56143"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 72,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 11,
+            "R": 8,
+            "dismissal-info": "not out",
+            "batsman": "Dinesh Karthik\u00a0 ",
+            "pid": "30045"
+          },
+          {
+            "dismissal-by": {
+              "name": "Trent Boult",
+              "pid": "277912"
+            },
+            "dismissal": "catch & bowled",
+            "SR": 60,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 15,
+            "R": 9,
+            "dismissal-info": "c & b Boult",
+            "batsman": "Andre Russell",
+            "pid": "276298"
+          },
+          {
+            "dismissal-by": {
+              "name": "Trent Boult",
+              "pid": "277912"
+            },
+            "dismissal": "bowled",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 1,
+            "R": 0,
+            "dismissal-info": "b Boult",
+            "batsman": "Pat Cummins",
+            "pid": "489889"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 100,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 2,
+            "R": 2,
+            "dismissal-info": "not out",
+            "batsman": "Harbhajan Singh",
+            "pid": "29264"
+          }
+        ],
+        "title": "Kolkata Knight Riders INNINGS (target: 153 runs from 20 overs)"
+      }
+    ],
+    "team": [
+      {
+        "players": [
+          {
+            "name": "Nitish Rana",
+            "pid": "604527"
+          },
+          {
+            "name": "Shubman Gill",
+            "pid": "1070173"
+          },
+          {
+            "name": "Rahul Tripathi",
+            "pid": "446763"
+          },
+          {
+            "name": "Eoin Morgan",
+            "pid": "24598"
+          },
+          {
+            "name": "Shakib Al Hasan",
+            "pid": "56143"
+          },
+          {
+            "name": "Dinesh Karthik",
+            "pid": "30045"
+          },
+          {
+            "name": "Andre Russell",
+            "pid": "276298"
+          },
+          {
+            "name": "Pat Cummins",
+            "pid": "489889"
+          },
+          {
+            "name": "Harbhajan Singh",
+            "pid": "29264"
+          },
+          {
+            "name": "Varun Chakravarthy",
+            "pid": "1108375"
+          },
+          {
+            "name": "Prasidh Krishna",
+            "pid": "917159"
+          }
+        ],
+        "name": "Kolkata Knight Riders"
+      },
+      {
+        "players": [
+          {
+            "name": "Rohit Sharma",
+            "pid": "34102"
+          },
+          {
+            "name": "Quinton de Kock",
+            "pid": "379143"
+          },
+          {
+            "name": "Suryakumar Yadav",
+            "pid": "446507"
+          },
+          {
+            "name": "Ishan Kishan",
+            "pid": "720471"
+          },
+          {
+            "name": "Hardik Pandya",
+            "pid": "625371"
+          },
+          {
+            "name": "Kieron Pollard",
+            "pid": "230559"
+          },
+          {
+            "name": "Krunal Pandya",
+            "pid": "471342"
+          },
+          {
+            "name": "Marco Jansen",
+            "pid": "696401"
+          },
+          {
+            "name": "Rahul Chahar",
+            "pid": "1064812"
+          },
+          {
+            "name": "Jasprit Bumrah",
+            "pid": "625383"
+          },
+          {
+            "name": "Trent Boult",
+            "pid": "277912"
+          }
+        ],
+        "name": "Mumbai Indians"
+      }
+    ],
+    "man-of-the-match": {
+      "name": "Rahul Chahar",
+      "pid": "1064812"
+    },
+    "toss_winner_team": "Kolkata Knight Riders",
+    "winner_team": "Mumbai Indians",
+    "matchStarted": true
+  },
+  "cache3": true,
+  "creditsLeft": 192,
+  "v": "1",
+  "ttl": 1,
+  "provider": {
+    "source": "Various",
+    "url": "https://cricapi.com/",
+    "pubDate": "2021-04-18T14:04:11.707Z"
+  }
+}
