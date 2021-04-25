@@ -1,0 +1,570 @@
+{
+  "dateTimeGMT": "2021-04-22T14:00:00.000Z",
+  "data": {
+    "fielding": [
+      {
+        "title": "Fielding for Rajasthan Royals INNINGS (20 overs maximum)",
+        "scores": [
+          {
+            "name": "AB de Villiers",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "44936"
+          },
+          {
+            "name": "Kane Richardson",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "272262"
+          },
+          {
+            "name": "Glenn Maxwell",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 2,
+            "pid": "325026"
+          },
+          {
+            "name": "Yuzvendra Chahal",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 2,
+            "pid": "430246"
+          },
+          {
+            "name": "Mohammed Siraj",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 1,
+            "catch": 0,
+            "pid": "940973"
+          },
+          {
+            "name": "Shahbaz Ahmed",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "1159711"
+          }
+        ]
+      },
+      {
+        "title": "Fielding for Royal Challengers Bangalore INNINGS (target: 178 runs from 20 overs)",
+        "scores": []
+      }
+    ],
+    "bowling": [
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 1,
+            "4s": 4,
+            "0s": 16,
+            "Econ": "6.75",
+            "W": "3",
+            "R": "27",
+            "M": "0",
+            "O": "4",
+            "bowler": "Mohammed Siraj",
+            "pid": "940973"
+          },
+          {
+            "NB": "0",
+            "WD": "2",
+            "6s": 1,
+            "4s": 2,
+            "0s": 11,
+            "Econ": "7.00",
+            "W": "1",
+            "R": "28",
+            "M": "0",
+            "O": "4",
+            "bowler": "Kyle Jamieson",
+            "pid": "625960"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 0,
+            "4s": 5,
+            "0s": 5,
+            "Econ": "9.66",
+            "W": "1",
+            "R": "29",
+            "M": "0",
+            "O": "3",
+            "bowler": "Kane Richardson",
+            "pid": "272262"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 2,
+            "4s": 0,
+            "0s": 5,
+            "Econ": "9.00",
+            "W": "0",
+            "R": "18",
+            "M": "0",
+            "O": "2",
+            "bowler": "Yuzvendra Chahal",
+            "pid": "430246"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 1,
+            "0s": 4,
+            "Econ": "7.66",
+            "W": "1",
+            "R": "23",
+            "M": "0",
+            "O": "3",
+            "bowler": "Washington Sundar",
+            "pid": "719715"
+          },
+          {
+            "NB": "0",
+            "WD": "3",
+            "6s": 2,
+            "4s": 6,
+            "0s": 8,
+            "Econ": "11.75",
+            "W": "3",
+            "R": "47",
+            "M": "0",
+            "O": "4",
+            "bowler": "Harshal Patel",
+            "pid": "390481"
+          }
+        ],
+        "title": "Bowling To Rajasthan Royals INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 2,
+            "4s": 4,
+            "0s": 6,
+            "Econ": "11.66",
+            "W": "0",
+            "R": "35",
+            "M": "0",
+            "O": "3",
+            "bowler": "Shreyas Gopal",
+            "pid": "344580"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 1,
+            "4s": 4,
+            "0s": 7,
+            "Econ": "8.75",
+            "W": "0",
+            "R": "35",
+            "M": "0",
+            "O": "4",
+            "bowler": "Chetan Sakariya",
+            "pid": "1131754"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 5,
+            "0s": 2,
+            "Econ": "12.66",
+            "W": "0",
+            "R": "38",
+            "M": "0",
+            "O": "3",
+            "bowler": "Chris Morris",
+            "pid": "439952"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 2,
+            "4s": 2,
+            "0s": 8,
+            "Econ": "9.71",
+            "W": "0",
+            "R": "34",
+            "M": "0",
+            "O": "3.3",
+            "bowler": "Mustafizur Rahman",
+            "pid": "330902"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 2,
+            "4s": 1,
+            "0s": 2,
+            "Econ": "11.50",
+            "W": "0",
+            "R": "23",
+            "M": "0",
+            "O": "2",
+            "bowler": "Rahul Tewatia",
+            "pid": "423838"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 1,
+            "0s": 0,
+            "Econ": "14.00",
+            "W": "0",
+            "R": "14",
+            "M": "0",
+            "O": "1",
+            "bowler": "Riyan Parag",
+            "pid": "1079434"
+          }
+        ],
+        "title": "Bowling To Royal Challengers Bangalore INNINGS (target: 178 runs from 20 overs)"
+      }
+    ],
+    "batting": [
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Mohammed Siraj",
+              "pid": "940973"
+            },
+            "dismissal": "bowled",
+            "SR": 100,
+            "6s": 0,
+            "4s": 2,
+            "M": 0,
+            "B": 8,
+            "R": 8,
+            "dismissal-info": "b Mohammed Siraj",
+            "batsman": "Jos Buttler",
+            "pid": "308967"
+          },
+          {
+            "dismissal-by": {
+              "name": "Kane Richardson",
+              "pid": "272262"
+            },
+            "dismissal": "catch",
+            "SR": 77,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 9,
+            "R": 7,
+            "dismissal-info": "c Richardson b Jamieson",
+            "batsman": "Manan Vohra",
+            "pid": "532856"
+          },
+          {
+            "dismissal-by": {
+              "name": "Glenn Maxwell",
+              "pid": "325026"
+            },
+            "dismissal": "catch",
+            "SR": 116,
+            "6s": 1,
+            "4s": 2,
+            "M": 0,
+            "B": 18,
+            "R": 21,
+            "dismissal-info": "c Maxwell b Washington Sundar",
+            "batsman": "Sanju Samson\u00a0(c) ",
+            "pid": "425943"
+          },
+          {
+            "dismissal-by": {
+              "name": "Mohammed Siraj",
+              "pid": "940973"
+            },
+            "dismissal": "lbw",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 2,
+            "R": 0,
+            "dismissal-info": "lbw b Mohammed Siraj",
+            "batsman": "David Miller",
+            "pid": "321777"
+          },
+          {
+            "dismissal-by": {
+              "name": "Glenn Maxwell",
+              "pid": "325026"
+            },
+            "dismissal": "catch",
+            "SR": 143,
+            "6s": 2,
+            "4s": 5,
+            "M": 0,
+            "B": 32,
+            "R": 46,
+            "dismissal-info": "c Maxwell b Richardson",
+            "batsman": "Shivam Dube",
+            "pid": "714451"
+          },
+          {
+            "dismissal-by": {
+              "name": "Yuzvendra Chahal",
+              "pid": "430246"
+            },
+            "dismissal": "catch",
+            "SR": 156,
+            "6s": 0,
+            "4s": 4,
+            "M": 0,
+            "B": 16,
+            "R": 25,
+            "dismissal-info": "c Chahal b Patel",
+            "batsman": "Riyan Parag",
+            "pid": "1079434"
+          },
+          {
+            "dismissal-by": {
+              "name": "Shahbaz Ahmed",
+              "pid": "1159711"
+            },
+            "dismissal": "catch",
+            "SR": 173,
+            "6s": 2,
+            "4s": 4,
+            "M": 0,
+            "B": 23,
+            "R": 40,
+            "dismissal-info": "c Shahbaz Ahmed b Mohammed Siraj",
+            "batsman": "Rahul Tewatia",
+            "pid": "423838"
+          },
+          {
+            "dismissal-by": {
+              "name": "Yuzvendra Chahal",
+              "pid": "430246"
+            },
+            "dismissal": "catch",
+            "SR": 142,
+            "6s": 1,
+            "4s": 0,
+            "M": 0,
+            "B": 7,
+            "R": 10,
+            "dismissal-info": "c Chahal b Patel",
+            "batsman": "Chris Morris",
+            "pid": "439952"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 175,
+            "6s": 1,
+            "4s": 0,
+            "M": 0,
+            "B": 4,
+            "R": 7,
+            "dismissal-info": "not out",
+            "batsman": "Shreyas Gopal",
+            "pid": "344580"
+          },
+          {
+            "dismissal-by": {
+              "name": "AB de Villiers",
+              "pid": "44936"
+            },
+            "dismissal": "catch",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 1,
+            "R": 0,
+            "dismissal-info": "c  de Villiers b Patel",
+            "batsman": "Chetan Sakariya",
+            "pid": "1131754"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 0,
+            "R": 0,
+            "dismissal-info": "not out",
+            "batsman": "Mustafizur Rahman",
+            "pid": "330902"
+          }
+        ],
+        "title": "Rajasthan Royals INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "dismissal": "not out",
+            "SR": 153,
+            "6s": 3,
+            "4s": 6,
+            "M": 0,
+            "B": 47,
+            "R": 72,
+            "dismissal-info": "not out",
+            "batsman": "Virat Kohli\u00a0(c)",
+            "pid": "253802"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 194,
+            "6s": 6,
+            "4s": 11,
+            "M": 0,
+            "B": 52,
+            "R": 101,
+            "dismissal-info": "not out",
+            "batsman": "Devdutt Padikkal",
+            "pid": "1119026"
+          }
+        ],
+        "title": "Royal Challengers Bangalore INNINGS (target: 178 runs from 20 overs)"
+      }
+    ],
+    "team": [
+      {
+        "players": [
+          {
+            "name": "Virat Kohli",
+            "pid": "253802"
+          },
+          {
+            "name": "Devdutt Padikkal",
+            "pid": "1119026"
+          },
+          {
+            "name": "Glenn Maxwell",
+            "pid": "325026"
+          },
+          {
+            "name": "AB de Villiers",
+            "pid": "44936"
+          },
+          {
+            "name": "Washington Sundar",
+            "pid": "719715"
+          },
+          {
+            "name": "Kyle Jamieson",
+            "pid": "625960"
+          },
+          {
+            "name": "Shahbaz Ahmed",
+            "pid": "1159711"
+          },
+          {
+            "name": "Harshal Patel",
+            "pid": "390481"
+          },
+          {
+            "name": "Mohammed Siraj",
+            "pid": "940973"
+          },
+          {
+            "name": "Kane Richardson",
+            "pid": "272262"
+          },
+          {
+            "name": "Yuzvendra Chahal",
+            "pid": "430246"
+          }
+        ],
+        "name": "Royal Challengers Bangalore"
+      },
+      {
+        "players": [
+          {
+            "name": "Jos Buttler",
+            "pid": "308967"
+          },
+          {
+            "name": "Manan Vohra",
+            "pid": "532856"
+          },
+          {
+            "name": "Sanju Samson",
+            "pid": "425943"
+          },
+          {
+            "name": "David Miller",
+            "pid": "321777"
+          },
+          {
+            "name": "Shivam Dube",
+            "pid": "714451"
+          },
+          {
+            "name": "Riyan Parag",
+            "pid": "1079434"
+          },
+          {
+            "name": "Rahul Tewatia",
+            "pid": "423838"
+          },
+          {
+            "name": "Chris Morris",
+            "pid": "439952"
+          },
+          {
+            "name": "Shreyas Gopal",
+            "pid": "344580"
+          },
+          {
+            "name": "Chetan Sakariya",
+            "pid": "1131754"
+          },
+          {
+            "name": "Mustafizur Rahman",
+            "pid": "330902"
+          }
+        ],
+        "name": "Rajasthan Royals"
+      }
+    ],
+    "man-of-the-match": {
+      "name": "Devdutt Padikkal",
+      "pid": "1119026"
+    },
+    "toss_winner_team": "Royal Challengers Bangalore",
+    "winner_team": "Royal Challengers Bangalore",
+    "matchStarted": true
+  },
+  "cache3": true,
+  "creditsLeft": 192,
+  "v": "1",
+  "ttl": 1,
+  "provider": {
+    "source": "Various",
+    "url": "https://cricapi.com/",
+    "pubDate": "2021-04-25T10:46:19.555Z"
+  }
+}

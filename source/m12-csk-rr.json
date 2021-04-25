@@ -1,0 +1,763 @@
+{
+  "dateTimeGMT": "2021-04-19T14:00:00.000Z",
+  "data": {
+    "fielding": [
+      {
+        "title": "Fielding for Chennai Super Kings INNINGS (20 overs maximum)",
+        "scores": [
+          {
+            "name": "Jos Buttler",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "308967"
+          },
+          {
+            "name": "Mustafizur Rahman",
+            "runout": 2,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 0,
+            "pid": "330902"
+          },
+          {
+            "name": "Sanju Samson",
+            "runout": 2,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "425943"
+          },
+          {
+            "name": "Chris Morris",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "439952"
+          },
+          {
+            "name": "Shivam Dube",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "714451"
+          },
+          {
+            "name": "Riyan Parag",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 3,
+            "pid": "1079434"
+          }
+        ]
+      },
+      {
+        "title": "Fielding for Rajasthan Royals INNINGS (target: 189 runs from 20 overs)",
+        "scores": [
+          {
+            "name": "Moeen Ali",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 1,
+            "catch": 0,
+            "pid": "8917"
+          },
+          {
+            "name": "Dwayne Bravo",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "51439"
+          },
+          {
+            "name": "Ravindra Jadeja",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 1,
+            "catch": 4,
+            "pid": "234675"
+          },
+          {
+            "name": "Ruturaj Gaikwad",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "1060380"
+          }
+        ]
+      }
+    ],
+    "bowling": [
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 6,
+            "0s": 7,
+            "Econ": "10.00",
+            "W": "0",
+            "R": "40",
+            "M": "0",
+            "O": "4",
+            "bowler": "Jaydev Unadkat",
+            "pid": "390484"
+          },
+          {
+            "NB": "0",
+            "WD": "3",
+            "6s": 2,
+            "4s": 1,
+            "0s": 9,
+            "Econ": "9.00",
+            "W": "3",
+            "R": "36",
+            "M": "0",
+            "O": "4",
+            "bowler": "Chetan Sakariya",
+            "pid": "1131754"
+          },
+          {
+            "NB": "1",
+            "WD": "2",
+            "6s": 2,
+            "4s": 1,
+            "0s": 9,
+            "Econ": "9.25",
+            "W": "1",
+            "R": "37",
+            "M": "0",
+            "O": "4",
+            "bowler": "Mustafizur Rahman",
+            "pid": "330902"
+          },
+          {
+            "NB": "0",
+            "WD": "2",
+            "6s": 1,
+            "4s": 4,
+            "0s": 11,
+            "Econ": "8.25",
+            "W": "2",
+            "R": "33",
+            "M": "0",
+            "O": "4",
+            "bowler": "Chris Morris",
+            "pid": "439952"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 2,
+            "4s": 0,
+            "0s": 8,
+            "Econ": "7.00",
+            "W": "1",
+            "R": "21",
+            "M": "0",
+            "O": "3",
+            "bowler": "Rahul Tewatia",
+            "pid": "423838"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 2,
+            "4s": 0,
+            "0s": 2,
+            "Econ": "16.00",
+            "W": "0",
+            "R": "16",
+            "M": "0",
+            "O": "1",
+            "bowler": "Riyan Parag",
+            "pid": "1079434"
+          }
+        ],
+        "title": "Bowling To Chennai Super Kings INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 1,
+            "4s": 4,
+            "0s": 7,
+            "Econ": "10.66",
+            "W": "0",
+            "R": "32",
+            "M": "0",
+            "O": "3",
+            "bowler": "Deepak Chahar",
+            "pid": "447261"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 2,
+            "4s": 1,
+            "0s": 14,
+            "Econ": "6.00",
+            "W": "2",
+            "R": "24",
+            "M": "0",
+            "O": "4",
+            "bowler": "Sam Curran",
+            "pid": "662973"
+          },
+          {
+            "NB": "0",
+            "WD": "2",
+            "6s": 0,
+            "4s": 3,
+            "0s": 9,
+            "Econ": "6.66",
+            "W": "1",
+            "R": "20",
+            "M": "0",
+            "O": "3",
+            "bowler": "Shardul Thakur",
+            "pid": "475281"
+          },
+          {
+            "NB": "1",
+            "WD": "0",
+            "6s": 1,
+            "4s": 2,
+            "0s": 9,
+            "Econ": "7.00",
+            "W": "2",
+            "R": "28",
+            "M": "0",
+            "O": "4",
+            "bowler": "Ravindra Jadeja",
+            "pid": "234675"
+          },
+          {
+            "NB": "0",
+            "WD": "5",
+            "6s": 2,
+            "4s": 0,
+            "0s": 8,
+            "Econ": "9.33",
+            "W": "1",
+            "R": "28",
+            "M": "0",
+            "O": "3",
+            "bowler": "Dwayne Bravo",
+            "pid": "51439"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 0,
+            "0s": 11,
+            "Econ": "2.33",
+            "W": "3",
+            "R": "7",
+            "M": "0",
+            "O": "3",
+            "bowler": "Moeen Ali",
+            "pid": "8917"
+          }
+        ],
+        "title": "Bowling To Rajasthan Royals INNINGS (target: 189 runs from 20 overs)"
+      }
+    ],
+    "batting": [
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Shivam Dube",
+              "pid": "714451"
+            },
+            "dismissal": "catch",
+            "SR": 76,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 13,
+            "R": 10,
+            "dismissal-info": "c Dube b Mustafizur Rahman",
+            "batsman": "Ruturaj Gaikwad",
+            "pid": "1060380"
+          },
+          {
+            "dismissal-by": {
+              "name": "Riyan Parag",
+              "pid": "1079434"
+            },
+            "dismissal": "catch",
+            "SR": 194,
+            "6s": 2,
+            "4s": 4,
+            "M": 0,
+            "B": 17,
+            "R": 33,
+            "dismissal-info": "c Parag b Morris",
+            "batsman": "Faf du Plessis",
+            "pid": "44828"
+          },
+          {
+            "dismissal-by": {
+              "name": "Riyan Parag",
+              "pid": "1079434"
+            },
+            "dismissal": "catch",
+            "SR": 130,
+            "6s": 2,
+            "4s": 1,
+            "M": 0,
+            "B": 20,
+            "R": 26,
+            "dismissal-info": "c Parag b Tewatia",
+            "batsman": "Moeen Ali",
+            "pid": "8917"
+          },
+          {
+            "dismissal-by": {
+              "name": "Chris Morris",
+              "pid": "439952"
+            },
+            "dismissal": "catch",
+            "SR": 120,
+            "6s": 1,
+            "4s": 1,
+            "M": 0,
+            "B": 15,
+            "R": 18,
+            "dismissal-info": "c Morris b Sakariya",
+            "batsman": "Suresh Raina",
+            "pid": "33335"
+          },
+          {
+            "dismissal-by": {
+              "name": "Riyan Parag",
+              "pid": "1079434"
+            },
+            "dismissal": "catch",
+            "SR": 158,
+            "6s": 3,
+            "4s": 0,
+            "M": 0,
+            "B": 17,
+            "R": 27,
+            "dismissal-info": "c Parag b Sakariya",
+            "batsman": "Ambati Rayudu",
+            "pid": "33141"
+          },
+          {
+            "dismissal-by": {
+              "name": "Sanju Samson",
+              "pid": "425943"
+            },
+            "dismissal": "catch",
+            "SR": 114,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 7,
+            "R": 8,
+            "dismissal-info": "c  Samson b Morris",
+            "batsman": "Ravindra Jadeja",
+            "pid": "234675"
+          },
+          {
+            "dismissal-by": {
+              "name": "Jos Buttler",
+              "pid": "308967"
+            },
+            "dismissal": "catch",
+            "SR": 105,
+            "6s": 0,
+            "4s": 2,
+            "M": 0,
+            "B": 17,
+            "R": 18,
+            "dismissal-info": "c Buttler b Sakariya",
+            "batsman": "MS Dhoni\u00a0(c) ",
+            "pid": "28081"
+          },
+          {
+            "dismissal-by": [
+              {
+                "name": "Mustafizur Rahman",
+                "pid": "330902"
+              },
+              {
+                "name": "Sanju Samson",
+                "pid": "425943"
+              }
+            ],
+            "dismissal": "runout",
+            "SR": 216,
+            "6s": 1,
+            "4s": 0,
+            "M": 0,
+            "B": 6,
+            "R": 13,
+            "dismissal-info": "run out (Mustafizur Rahman/ Samson)",
+            "batsman": "Sam Curran",
+            "pid": "662973"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 250,
+            "6s": 1,
+            "4s": 2,
+            "M": 0,
+            "B": 8,
+            "R": 20,
+            "dismissal-info": "not out",
+            "batsman": "Dwayne Bravo",
+            "pid": "51439"
+          },
+          {
+            "dismissal-by": [
+              {
+                "name": "Sanju Samson",
+                "pid": "425943"
+              },
+              {
+                "name": "Mustafizur Rahman",
+                "pid": "330902"
+              }
+            ],
+            "dismissal": "runout",
+            "SR": 100,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 1,
+            "R": 1,
+            "dismissal-info": "run out ( Samson/Mustafizur Rahman)",
+            "batsman": "Shardul Thakur",
+            "pid": "475281"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 0,
+            "R": 0,
+            "dismissal-info": "not out",
+            "batsman": "Deepak Chahar",
+            "pid": "447261"
+          }
+        ],
+        "title": "Chennai Super Kings INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Ravindra Jadeja",
+              "pid": "234675"
+            },
+            "dismissal": "bowled",
+            "SR": 140,
+            "6s": 2,
+            "4s": 5,
+            "M": 0,
+            "B": 35,
+            "R": 49,
+            "dismissal-info": "b Jadeja",
+            "batsman": "Jos Buttler",
+            "pid": "308967"
+          },
+          {
+            "dismissal-by": {
+              "name": "Ravindra Jadeja",
+              "pid": "234675"
+            },
+            "dismissal": "catch",
+            "SR": 127,
+            "6s": 1,
+            "4s": 1,
+            "M": 0,
+            "B": 11,
+            "R": 14,
+            "dismissal-info": "c Jadeja b Curran",
+            "batsman": "Manan Vohra",
+            "pid": "532856"
+          },
+          {
+            "dismissal-by": {
+              "name": "Dwayne Bravo",
+              "pid": "51439"
+            },
+            "dismissal": "catch",
+            "SR": 20,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 5,
+            "R": 1,
+            "dismissal-info": "c Bravo b Curran",
+            "batsman": "Sanju Samson\u00a0(c) ",
+            "pid": "425943"
+          },
+          {
+            "dismissal-by": {
+              "name": "Ravindra Jadeja",
+              "pid": "234675"
+            },
+            "dismissal": "lbw",
+            "SR": 85,
+            "6s": 0,
+            "4s": 2,
+            "M": 0,
+            "B": 20,
+            "R": 17,
+            "dismissal-info": "lbw b Jadeja",
+            "batsman": "Shivam Dube",
+            "pid": "714451"
+          },
+          {
+            "dismissal-by": {
+              "name": "Moeen Ali",
+              "pid": "8917"
+            },
+            "dismissal": "lbw",
+            "SR": 40,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 5,
+            "R": 2,
+            "dismissal-info": "lbw b Ali",
+            "batsman": "David Miller",
+            "pid": "321777"
+          },
+          {
+            "dismissal-by": {
+              "name": "Ravindra Jadeja",
+              "pid": "234675"
+            },
+            "dismissal": "catch",
+            "SR": 42,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 7,
+            "R": 3,
+            "dismissal-info": "c Jadeja b Ali",
+            "batsman": "Riyan Parag",
+            "pid": "1079434"
+          },
+          {
+            "dismissal-by": {
+              "name": "Ruturaj Gaikwad",
+              "pid": "1060380"
+            },
+            "dismissal": "catch",
+            "SR": 133,
+            "6s": 2,
+            "4s": 0,
+            "M": 0,
+            "B": 15,
+            "R": 20,
+            "dismissal-info": "c Gaikwad b Bravo",
+            "batsman": "Rahul Tewatia",
+            "pid": "423838"
+          },
+          {
+            "dismissal-by": {
+              "name": "Ravindra Jadeja",
+              "pid": "234675"
+            },
+            "dismissal": "catch",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 2,
+            "R": 0,
+            "dismissal-info": "c Jadeja b Ali",
+            "batsman": "Chris Morris",
+            "pid": "439952"
+          },
+          {
+            "dismissal-by": {
+              "name": "Ravindra Jadeja",
+              "pid": "234675"
+            },
+            "dismissal": "catch",
+            "SR": 141,
+            "6s": 1,
+            "4s": 2,
+            "M": 0,
+            "B": 17,
+            "R": 24,
+            "dismissal-info": "c Jadeja b Thakur",
+            "batsman": "Jaydev Unadkat",
+            "pid": "390484"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 0,
+            "R": 0,
+            "dismissal-info": "not out",
+            "batsman": "Chetan Sakariya",
+            "pid": "1131754"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 4,
+            "R": 0,
+            "dismissal-info": "not out",
+            "batsman": "Mustafizur Rahman",
+            "pid": "330902"
+          }
+        ],
+        "title": "Rajasthan Royals INNINGS (target: 189 runs from 20 overs)"
+      }
+    ],
+    "team": [
+      {
+        "players": [
+          {
+            "name": "Ruturaj Gaikwad",
+            "pid": "1060380"
+          },
+          {
+            "name": "Faf du Plessis",
+            "pid": "44828"
+          },
+          {
+            "name": "Moeen Ali",
+            "pid": "8917"
+          },
+          {
+            "name": "Suresh Raina",
+            "pid": "33335"
+          },
+          {
+            "name": "Ambati Rayudu",
+            "pid": "33141"
+          },
+          {
+            "name": "Ravindra Jadeja",
+            "pid": "234675"
+          },
+          {
+            "name": "MS Dhoni",
+            "pid": "28081"
+          },
+          {
+            "name": "Sam Curran",
+            "pid": "662973"
+          },
+          {
+            "name": "Dwayne Bravo",
+            "pid": "51439"
+          },
+          {
+            "name": "Shardul Thakur",
+            "pid": "475281"
+          },
+          {
+            "name": "Deepak Chahar",
+            "pid": "447261"
+          }
+        ],
+        "name": "Chennai Super Kings"
+      },
+      {
+        "players": [
+          {
+            "name": "Jos Buttler",
+            "pid": "308967"
+          },
+          {
+            "name": "Manan Vohra",
+            "pid": "532856"
+          },
+          {
+            "name": "Sanju Samson",
+            "pid": "425943"
+          },
+          {
+            "name": "Shivam Dube",
+            "pid": "714451"
+          },
+          {
+            "name": "David Miller",
+            "pid": "321777"
+          },
+          {
+            "name": "Riyan Parag",
+            "pid": "1079434"
+          },
+          {
+            "name": "Rahul Tewatia",
+            "pid": "423838"
+          },
+          {
+            "name": "Chris Morris",
+            "pid": "439952"
+          },
+          {
+            "name": "Jaydev Unadkat",
+            "pid": "390484"
+          },
+          {
+            "name": "Chetan Sakariya",
+            "pid": "1131754"
+          },
+          {
+            "name": "Mustafizur Rahman",
+            "pid": "330902"
+          }
+        ],
+        "name": "Rajasthan Royals"
+      }
+    ],
+    "man-of-the-match": {
+      "name": "Moeen Ali",
+      "pid": "8917"
+    },
+    "toss_winner_team": "Rajasthan Royals",
+    "winner_team": "Chennai Super Kings",
+    "matchStarted": true
+  },
+  "cache3": true,
+  "creditsLeft": 192,
+  "v": "1",
+  "ttl": 2,
+  "provider": {
+    "source": "Various",
+    "url": "https://cricapi.com/",
+    "pubDate": "2021-04-25T10:45:52.167Z"
+  }
+}

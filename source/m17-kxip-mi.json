@@ -1,0 +1,548 @@
+{
+  "dateTimeGMT": "2021-04-23T14:00:00.000Z",
+  "data": {
+    "fielding": [
+      {
+        "title": "Fielding for Mumbai Indians INNINGS (20 overs maximum)",
+        "scores": [
+          {
+            "name": "Moises Henriques",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "5961"
+          },
+          {
+            "name": "Chris Gayle",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "51880"
+          },
+          {
+            "name": "KL Rahul",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "422108"
+          },
+          {
+            "name": "Deepak Hooda",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "497121"
+          },
+          {
+            "name": "Nicholas Pooran",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "604302"
+          },
+          {
+            "name": "Fabian Allen",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "670013"
+          }
+        ]
+      },
+      {
+        "title": "Fielding for Punjab Kings INNINGS (target: 132 runs from 20 overs)",
+        "scores": [
+          {
+            "name": "SA Yadav",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": 446507
+          }
+        ]
+      }
+    ],
+    "bowling": [
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 1,
+            "0s": 9,
+            "Econ": "4.00",
+            "W": "0",
+            "R": "12",
+            "M": "0",
+            "O": "3",
+            "bowler": "Moises Henriques",
+            "pid": "5961"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 0,
+            "0s": 9,
+            "Econ": "5.00",
+            "W": "1",
+            "R": "15",
+            "M": "0",
+            "O": "3",
+            "bowler": "Deepak Hooda",
+            "pid": "497121"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 1,
+            "0s": 7,
+            "Econ": "5.25",
+            "W": "2",
+            "R": "21",
+            "M": "0",
+            "O": "4",
+            "bowler": "Mohammed Shami",
+            "pid": "481896"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 2,
+            "0s": 10,
+            "Econ": "5.25",
+            "W": "2",
+            "R": "21",
+            "M": "0",
+            "O": "4",
+            "bowler": "Ravi Bishnoi",
+            "pid": "1175441"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 3,
+            "0s": 2,
+            "Econ": "10.00",
+            "W": "0",
+            "R": "30",
+            "M": "0",
+            "O": "3",
+            "bowler": "Fabian Allen",
+            "pid": "670013"
+          },
+          {
+            "NB": "0",
+            "WD": "2",
+            "6s": 2,
+            "4s": 1,
+            "0s": 7,
+            "Econ": "9.33",
+            "W": "1",
+            "R": "28",
+            "M": "0",
+            "O": "3",
+            "bowler": "Arshdeep Singh",
+            "pid": "1125976"
+          }
+        ],
+        "title": "Bowling To Mumbai Indians INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "NB": "1",
+            "WD": "0",
+            "6s": 2,
+            "4s": 3,
+            "0s": 7,
+            "Econ": "11.25",
+            "W": "0",
+            "R": "30",
+            "M": "0",
+            "O": "2.4",
+            "bowler": "Trent Boult",
+            "pid": "277912"
+          },
+          {
+            "NB": "0",
+            "WD": "3",
+            "6s": 1,
+            "4s": 4,
+            "0s": 7,
+            "Econ": "10.33",
+            "W": "0",
+            "R": "31",
+            "M": "0",
+            "O": "3",
+            "bowler": "Krunal Pandya",
+            "pid": "471342"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 2,
+            "0s": 9,
+            "Econ": "7.00",
+            "W": "0",
+            "R": "21",
+            "M": "0",
+            "O": "3",
+            "bowler": "Jasprit Bumrah",
+            "pid": "625383"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 1,
+            "0s": 8,
+            "Econ": "4.75",
+            "W": "1",
+            "R": "19",
+            "M": "0",
+            "O": "4",
+            "bowler": "Rahul Chahar",
+            "pid": "1064812"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 2,
+            "0s": 16,
+            "Econ": "5.00",
+            "W": "0",
+            "R": "20",
+            "M": "0",
+            "O": "4",
+            "bowler": "Jayant Yadav",
+            "pid": "447587"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 0,
+            "0s": 1,
+            "Econ": "11.00",
+            "W": "0",
+            "R": "11",
+            "M": "0",
+            "O": "1",
+            "bowler": "Kieron Pollard",
+            "pid": "230559"
+          }
+        ],
+        "title": "Bowling To Punjab Kings INNINGS (target: 132 runs from 20 overs)"
+      }
+    ],
+    "batting": [
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Moises Henriques",
+              "pid": "5961"
+            },
+            "dismissal": "catch",
+            "SR": 60,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 5,
+            "R": 3,
+            "dismissal-info": "c Henriques b Hooda",
+            "batsman": "Quinton de Kock\u00a0 ",
+            "pid": "379143"
+          },
+          {
+            "dismissal-by": {
+              "name": "Fabian Allen",
+              "pid": "670013"
+            },
+            "dismissal": "catch",
+            "SR": 121,
+            "6s": 2,
+            "4s": 5,
+            "M": 0,
+            "B": 52,
+            "R": 63,
+            "dismissal-info": "c Allen b Mohammed Shami",
+            "batsman": "Rohit Sharma\u00a0(c)",
+            "pid": "34102"
+          },
+          {
+            "dismissal-by": {
+              "name": "KL Rahul",
+              "pid": "422108"
+            },
+            "dismissal": "catch",
+            "SR": 35,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 17,
+            "R": 6,
+            "dismissal-info": "c  Rahul b Ravi Bishnoi",
+            "batsman": "Ishan Kishan",
+            "pid": "720471"
+          },
+          {
+            "dismissal-by": {
+              "name": "Chris Gayle",
+              "pid": "51880"
+            },
+            "dismissal": "catch",
+            "SR": 122,
+            "6s": 1,
+            "4s": 3,
+            "M": 0,
+            "B": 27,
+            "R": 33,
+            "dismissal-info": "c Gayle b Ravi Bishnoi",
+            "batsman": "Suryakumar Yadav",
+            "pid": "446507"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 133,
+            "6s": 1,
+            "4s": 0,
+            "M": 0,
+            "B": 12,
+            "R": 16,
+            "dismissal-info": "not out",
+            "batsman": "Kieron Pollard",
+            "pid": "230559"
+          },
+          {
+            "dismissal-by": {
+              "name": "Deepak Hooda",
+              "pid": "497121"
+            },
+            "dismissal": "catch",
+            "SR": 25,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 4,
+            "R": 1,
+            "dismissal-info": "c Hooda b Arshdeep Singh",
+            "batsman": "Hardik Pandya",
+            "pid": "625371"
+          },
+          {
+            "dismissal-by": {
+              "name": "Nicholas Pooran",
+              "pid": "604302"
+            },
+            "dismissal": "catch",
+            "SR": 100,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 3,
+            "R": 3,
+            "dismissal-info": "c Pooran b Mohammed Shami",
+            "batsman": "Krunal Pandya",
+            "pid": "471342"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 0,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 0,
+            "R": 0,
+            "dismissal-info": "not out",
+            "batsman": "Jayant Yadav",
+            "pid": "447587"
+          }
+        ],
+        "title": "Mumbai Indians INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "dismissal": "not out",
+            "SR": 115,
+            "6s": 3,
+            "4s": 3,
+            "M": 0,
+            "B": 52,
+            "R": 60,
+            "dismissal-info": "not out",
+            "batsman": "KL Rahul\u00a0(c) ",
+            "pid": "422108"
+          },
+          {
+            "dismissal-by": {
+              "pid": 446507,
+              "name": "SA Yadav"
+            },
+            "dismissal": "catch",
+            "SR": 125,
+            "6s": 1,
+            "4s": 4,
+            "M": 0,
+            "B": 20,
+            "R": 25,
+            "dismissal-info": "c SA Yadav b Chahar",
+            "batsman": "Mayank Agarwal",
+            "pid": "398438"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 122,
+            "6s": 2,
+            "4s": 5,
+            "M": 0,
+            "B": 35,
+            "R": 43,
+            "dismissal-info": "not out",
+            "batsman": "Chris Gayle",
+            "pid": "51880"
+          }
+        ],
+        "title": "Punjab Kings INNINGS (target: 132 runs from 20 overs)"
+      }
+    ],
+    "team": [
+      {
+        "players": [
+          {
+            "name": "KL Rahul",
+            "pid": "422108"
+          },
+          {
+            "name": "Mayank Agarwal",
+            "pid": "398438"
+          },
+          {
+            "name": "Chris Gayle",
+            "pid": "51880"
+          },
+          {
+            "name": "Deepak Hooda",
+            "pid": "497121"
+          },
+          {
+            "name": "Nicholas Pooran",
+            "pid": "604302"
+          },
+          {
+            "name": "Moises Henriques",
+            "pid": "5961"
+          },
+          {
+            "name": "Shahrukh Khan",
+            "pid": "719719"
+          },
+          {
+            "name": "Fabian Allen",
+            "pid": "670013"
+          },
+          {
+            "name": "Mohammed Shami",
+            "pid": "481896"
+          },
+          {
+            "name": "Ravi Bishnoi",
+            "pid": "1175441"
+          },
+          {
+            "name": "Arshdeep Singh",
+            "pid": "1125976"
+          }
+        ],
+        "name": "Punjab Kings"
+      },
+      {
+        "players": [
+          {
+            "name": "Quinton de Kock",
+            "pid": "379143"
+          },
+          {
+            "name": "Rohit Sharma",
+            "pid": "34102"
+          },
+          {
+            "name": "Ishan Kishan",
+            "pid": "720471"
+          },
+          {
+            "name": "Suryakumar Yadav",
+            "pid": "446507"
+          },
+          {
+            "name": "Kieron Pollard",
+            "pid": "230559"
+          },
+          {
+            "name": "Hardik Pandya",
+            "pid": "625371"
+          },
+          {
+            "name": "Krunal Pandya",
+            "pid": "471342"
+          },
+          {
+            "name": "Jayant Yadav",
+            "pid": "447587"
+          },
+          {
+            "name": "Rahul Chahar",
+            "pid": "1064812"
+          },
+          {
+            "name": "Jasprit Bumrah",
+            "pid": "625383"
+          },
+          {
+            "name": "Trent Boult",
+            "pid": "277912"
+          }
+        ],
+        "name": "Mumbai Indians"
+      }
+    ],
+    "man-of-the-match": {
+      "name": "KL Rahul",
+      "pid": "422108"
+    },
+    "toss_winner_team": "Punjab Kings",
+    "winner_team": "Punjab Kings",
+    "matchStarted": true
+  },
+  "cache3": true,
+  "creditsLeft": 192,
+  "v": "1",
+  "ttl": 2,
+  "provider": {
+    "source": "Various",
+    "url": "https://cricapi.com/",
+    "pubDate": "2021-04-25T10:46:27.321Z"
+  }
+}

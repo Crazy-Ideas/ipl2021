@@ -1,0 +1,564 @@
+{
+  "dateTimeGMT": "2021-04-18T14:00:00.000Z",
+  "data": {
+    "fielding": [
+      {
+        "title": "Fielding for Punjab Kings INNINGS (20 overs maximum)",
+        "scores": [
+          {
+            "name": "Shikhar Dhawan",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "28235"
+          },
+          {
+            "name": "Marcus Stoinis",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "325012"
+          },
+          {
+            "name": "Kagiso Rabada",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "550215"
+          },
+          {
+            "name": "RV Patel",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": 1201520
+          }
+        ]
+      },
+      {
+        "title": "Fielding for Delhi Capitals INNINGS (target: 196 runs from 20 overs)",
+        "scores": [
+          {
+            "name": "Chris Gayle",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "51880"
+          },
+          {
+            "name": "Deepak Hooda",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 0,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "497121"
+          },
+          {
+            "name": "Jhye Richardson",
+            "runout": 0,
+            "stumped": 0,
+            "bowled": 1,
+            "lbw": 0,
+            "catch": 1,
+            "pid": "774223"
+          }
+        ]
+      }
+    ],
+    "bowling": [
+      {
+        "scores": [
+          {
+            "NB": "1",
+            "WD": "0",
+            "6s": 2,
+            "4s": 5,
+            "0s": 9,
+            "Econ": "10.50",
+            "W": "1",
+            "R": "42",
+            "M": "0",
+            "O": "4",
+            "bowler": "Chris Woakes",
+            "pid": "247235"
+          },
+          {
+            "NB": "1",
+            "WD": "0",
+            "6s": 1,
+            "4s": 4,
+            "0s": 6,
+            "Econ": "10.66",
+            "W": "1",
+            "R": "32",
+            "M": "0",
+            "O": "3",
+            "bowler": "Lukman Meriwala",
+            "pid": "573930"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 1,
+            "4s": 2,
+            "0s": 7,
+            "Econ": "7.00",
+            "W": "0",
+            "R": "28",
+            "M": "0",
+            "O": "4",
+            "bowler": "Ravichandran Ashwin",
+            "pid": "26421"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 4,
+            "4s": 2,
+            "0s": 8,
+            "Econ": "10.75",
+            "W": "1",
+            "R": "43",
+            "M": "0",
+            "O": "4",
+            "bowler": "Kagiso Rabada",
+            "pid": "550215"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 2,
+            "0s": 1,
+            "Econ": "11.00",
+            "W": "0",
+            "R": "11",
+            "M": "0",
+            "O": "1",
+            "bowler": "Lalit Yadav",
+            "pid": "930189"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 2,
+            "4s": 2,
+            "0s": 9,
+            "Econ": "8.25",
+            "W": "1",
+            "R": "33",
+            "M": "0",
+            "O": "4",
+            "bowler": "Avesh Khan",
+            "pid": "694211"
+          }
+        ],
+        "title": "Bowling To Punjab Kings INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 1,
+            "0s": 3,
+            "Econ": "7.33",
+            "W": "1",
+            "R": "22",
+            "M": "0",
+            "O": "3",
+            "bowler": "Arshdeep Singh",
+            "pid": "1125976"
+          },
+          {
+            "NB": "2",
+            "WD": "0",
+            "6s": 3,
+            "4s": 6,
+            "0s": 8,
+            "Econ": "13.25",
+            "W": "0",
+            "R": "53",
+            "M": "0",
+            "O": "4",
+            "bowler": "Mohammed Shami",
+            "pid": "481896"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 4,
+            "0s": 5,
+            "Econ": "9.00",
+            "W": "0",
+            "R": "27",
+            "M": "0",
+            "O": "3",
+            "bowler": "Jalaj Saxena",
+            "pid": "237199"
+          },
+          {
+            "NB": "0",
+            "WD": "1",
+            "6s": 3,
+            "4s": 2,
+            "0s": 8,
+            "Econ": "10.25",
+            "W": "2",
+            "R": "41",
+            "M": "0",
+            "O": "4",
+            "bowler": "Jhye Richardson",
+            "pid": "774223"
+          },
+          {
+            "NB": "0",
+            "WD": "0",
+            "6s": 0,
+            "4s": 2,
+            "0s": 1,
+            "Econ": "9.00",
+            "W": "0",
+            "R": "18",
+            "M": "0",
+            "O": "2",
+            "bowler": "Deepak Hooda",
+            "pid": "497121"
+          },
+          {
+            "NB": "1",
+            "WD": "1",
+            "6s": 0,
+            "4s": 6,
+            "0s": 4,
+            "Econ": "15.00",
+            "W": "1",
+            "R": "35",
+            "M": "0",
+            "O": "2.2",
+            "bowler": "Riley Meredith",
+            "pid": "961713"
+          }
+        ],
+        "title": "Bowling To Delhi Capitals INNINGS (target: 196 runs from 20 overs)"
+      }
+    ],
+    "batting": [
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Marcus Stoinis",
+              "pid": "325012"
+            },
+            "dismissal": "catch",
+            "SR": 119,
+            "6s": 2,
+            "4s": 7,
+            "M": 0,
+            "B": 51,
+            "R": 61,
+            "dismissal-info": "c Stoinis b Rabada",
+            "batsman": "KL Rahul\u00a0(c) ",
+            "pid": "422108"
+          },
+          {
+            "dismissal-by": {
+              "name": "Shikhar Dhawan",
+              "pid": "28235"
+            },
+            "dismissal": "catch",
+            "SR": 191,
+            "6s": 4,
+            "4s": 7,
+            "M": 0,
+            "B": 36,
+            "R": 69,
+            "dismissal-info": "c Dhawan b Meriwala",
+            "batsman": "Mayank Agarwal",
+            "pid": "398438"
+          },
+          {
+            "dismissal-by": {
+              "pid": 1201520,
+              "name": "RV Patel"
+            },
+            "dismissal": "catch",
+            "SR": 122,
+            "6s": 1,
+            "4s": 0,
+            "M": 0,
+            "B": 9,
+            "R": 11,
+            "dismissal-info": "c sub (RV Patel) b Woakes",
+            "batsman": "Chris Gayle",
+            "pid": "51880"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 169,
+            "6s": 2,
+            "4s": 0,
+            "M": 0,
+            "B": 13,
+            "R": 22,
+            "dismissal-info": "not out",
+            "batsman": "Deepak Hooda",
+            "pid": "497121"
+          },
+          {
+            "dismissal-by": {
+              "name": "Kagiso Rabada",
+              "pid": "550215"
+            },
+            "dismissal": "catch",
+            "SR": 112,
+            "6s": 0,
+            "4s": 1,
+            "M": 0,
+            "B": 8,
+            "R": 9,
+            "dismissal-info": "c Rabada b Avesh Khan",
+            "batsman": "Nicholas Pooran",
+            "pid": "604302"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 300,
+            "6s": 1,
+            "4s": 2,
+            "M": 0,
+            "B": 5,
+            "R": 15,
+            "dismissal-info": "not out",
+            "batsman": "Shahrukh Khan",
+            "pid": "719719"
+          }
+        ],
+        "title": "Punjab Kings INNINGS (20 overs maximum)"
+      },
+      {
+        "scores": [
+          {
+            "dismissal-by": {
+              "name": "Chris Gayle",
+              "pid": "51880"
+            },
+            "dismissal": "catch",
+            "SR": 188,
+            "6s": 2,
+            "4s": 3,
+            "M": 0,
+            "B": 17,
+            "R": 32,
+            "dismissal-info": "c Gayle b Arshdeep Singh",
+            "batsman": "Prithvi Shaw",
+            "pid": "1070168"
+          },
+          {
+            "dismissal-by": {
+              "name": "Jhye Richardson",
+              "pid": "774223"
+            },
+            "dismissal": "bowled",
+            "SR": 187,
+            "6s": 2,
+            "4s": 13,
+            "M": 0,
+            "B": 49,
+            "R": 92,
+            "dismissal-info": "b Richardson",
+            "batsman": "Shikhar Dhawan",
+            "pid": "28235"
+          },
+          {
+            "dismissal-by": {
+              "name": "Jhye Richardson",
+              "pid": "774223"
+            },
+            "dismissal": "catch",
+            "SR": 75,
+            "6s": 0,
+            "4s": 0,
+            "M": 0,
+            "B": 12,
+            "R": 9,
+            "dismissal-info": "c Richardson b Meredith",
+            "batsman": "Steven Smith",
+            "pid": "267192"
+          },
+          {
+            "dismissal-by": {
+              "name": "Deepak Hooda",
+              "pid": "497121"
+            },
+            "dismissal": "catch",
+            "SR": 93,
+            "6s": 1,
+            "4s": 0,
+            "M": 0,
+            "B": 16,
+            "R": 15,
+            "dismissal-info": "c Hooda b Richardson",
+            "batsman": "Rishabh Pant\u00a0(c) ",
+            "pid": "931581"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 207,
+            "6s": 1,
+            "4s": 3,
+            "M": 0,
+            "B": 13,
+            "R": 27,
+            "dismissal-info": "not out",
+            "batsman": "Marcus Stoinis",
+            "pid": "325012"
+          },
+          {
+            "dismissal": "not out",
+            "SR": 200,
+            "6s": 0,
+            "4s": 2,
+            "M": 0,
+            "B": 6,
+            "R": 12,
+            "dismissal-info": "not out",
+            "batsman": "Lalit Yadav",
+            "pid": "930189"
+          }
+        ],
+        "title": "Delhi Capitals INNINGS (target: 196 runs from 20 overs)"
+      }
+    ],
+    "team": [
+      {
+        "players": [
+          {
+            "name": "Prithvi Shaw",
+            "pid": "1070168"
+          },
+          {
+            "name": "Shikhar Dhawan",
+            "pid": "28235"
+          },
+          {
+            "name": "Steven Smith",
+            "pid": "267192"
+          },
+          {
+            "name": "Rishabh Pant",
+            "pid": "931581"
+          },
+          {
+            "name": "Marcus Stoinis",
+            "pid": "325012"
+          },
+          {
+            "name": "Lalit Yadav",
+            "pid": "930189"
+          },
+          {
+            "name": "Lukman Meriwala",
+            "pid": "573930"
+          },
+          {
+            "name": "Chris Woakes",
+            "pid": "247235"
+          },
+          {
+            "name": "Ravichandran Ashwin",
+            "pid": "26421"
+          },
+          {
+            "name": "Kagiso Rabada",
+            "pid": "550215"
+          },
+          {
+            "name": "Avesh Khan",
+            "pid": "694211"
+          }
+        ],
+        "name": "Delhi Capitals"
+      },
+      {
+        "players": [
+          {
+            "name": "KL Rahul",
+            "pid": "422108"
+          },
+          {
+            "name": "Mayank Agarwal",
+            "pid": "398438"
+          },
+          {
+            "name": "Chris Gayle",
+            "pid": "51880"
+          },
+          {
+            "name": "Deepak Hooda",
+            "pid": "497121"
+          },
+          {
+            "name": "Nicholas Pooran",
+            "pid": "604302"
+          },
+          {
+            "name": "Shahrukh Khan",
+            "pid": "719719"
+          },
+          {
+            "name": "Jalaj Saxena",
+            "pid": "237199"
+          },
+          {
+            "name": "Jhye Richardson",
+            "pid": "774223"
+          },
+          {
+            "name": "Mohammed Shami",
+            "pid": "481896"
+          },
+          {
+            "name": "Riley Meredith",
+            "pid": "961713"
+          },
+          {
+            "name": "Arshdeep Singh",
+            "pid": "1125976"
+          }
+        ],
+        "name": "Punjab Kings"
+      }
+    ],
+    "man-of-the-match": {
+      "name": "Shikhar Dhawan",
+      "pid": "28235"
+    },
+    "toss_winner_team": "Delhi Capitals",
+    "winner_team": "Delhi Capitals",
+    "matchStarted": true
+  },
+  "cache3": true,
+  "creditsLeft": 192,
+  "v": "1",
+  "ttl": 2,
+  "provider": {
+    "source": "Various",
+    "url": "https://cricapi.com/",
+    "pubDate": "2021-04-25T10:45:43.582Z"
+  }
+}
