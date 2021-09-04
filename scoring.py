@@ -29,14 +29,14 @@ def cache_request(match: Match) -> Dict:
     return score_data
 
 
-def get_score(match: Match) -> Dict:
+def get_score(match: Match):
     response = requests.get("https://cricapi.com/api/fantasySummary",
                             params={"apikey": Config.API_KEY, "unique_id": match.unique_id})
     try:
         score_data = response.json()
     except JSONDecodeError:
         print("Error in server")
-        return dict()
+        return response
     if "creditsLeft" in score_data:
         print(f"Credits Left: {score_data['creditsLeft']}")
     if "data" not in score_data:
@@ -132,10 +132,10 @@ def update_match_points():
 
 
 def get_match_player(player_id: str, match_number: int) -> Optional[MatchPlayer]:
-    match: Match = schedule.schedule[match_number - 1]
+    match = schedule.schedule[match_number - 1]
     score_data = get_mock_score(match)
     if not score_data:
-        print(f"No score data found for match {match}")
+        print(f"No score data found forget match {match}")
         return None
     score_data = ScoreData(score_data["data"])
     playing_xi: List[Tuple[str, str]] = score_data.get_playing_xi()
